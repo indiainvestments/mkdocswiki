@@ -104,9 +104,9 @@ Steps to follow:
 
 Here’s a video to guide you along:
 
-{% embed url="https://www.youtube.com/watch?v=H4EMN\_YkK9w" caption="XIRR for an Endowment Policy - Dark Mode" %}
+<lite-youtube class="youtube-player-dark" videoid="H4EMN_YkK9w"></lite-youtube>
 
-{% embed url="https://www.youtube.com/watch?v=HJaPGC0Pu0U" caption="XIRR for an Endowment Policy - Light Mode" %}
+<lite-youtube class="youtube-player-light" videoid="HJaPGC0Pu0U"></lite-youtube>
 
 The final results should resemble something like these screenshot(s):
 
@@ -169,9 +169,9 @@ Updating entries in our spreadsheet, and invoking XIRR function, we get **7.17% 
 
 Refer to these videos if you need help
 
-{% embed url="https://www.youtube.com/watch?v=QoFfq\_5dSro" caption="XIRR for Moneyback Policy with earlier payouts - Dark Mode" %}
+<lite-youtube class="youtube-player-dark" videoid="QoFfq_5dSro"></lite-youtube>
 
-{% embed url="https://www.youtube.com/watch?v=\_I8VW7CrcAA" caption="XIRR for Moneyback Policy with earlier payouts - Light Mode" %}
+<lite-youtube class="youtube-player-light" videoid="_I8VW7CrcAA"></lite-youtube>
 
 When you're done, it should resemble something like these:
 

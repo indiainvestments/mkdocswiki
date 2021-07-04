@@ -160,9 +160,9 @@ Once you enter these in a cell, link to the date from the other cell; and hit `E
 |:--------------------|:--------|
 | 03/04/2000 16:00:00 | 4223.68 |
 
-{% embed url="https://youtu.be/zSUmUS7YOKM" %}
+<lite-youtube class="youtube-player-dark" videoid="zSUmUS7YOKM"></lite-youtube>
 
-{% embed url="https://youtu.be/ZGNNt4KZGOM" %}
+<lite-youtube class="youtube-player-light" videoid="ZGNNt4KZGOM"></lite-youtube>
 
 ### Using INDEX()
 
@@ -206,9 +206,9 @@ Similarly, for the `actual date` column, we use (2,1) with `INDEX`:
 
 Also refer to following video
 
-{% embed url="https://youtu.be/l0UkFxQDE-k" %}
+<lite-youtube class="youtube-player-dark" videoid="l0UkFxQDE-k"></lite-youtube>
 
-{% embed url="https://youtu.be/dB0Pn9Vek60" %}
+<lite-youtube class="youtube-player-light" videoid="dB0Pn9Vek60"></lite-youtube>
 
 ### Repeating Patterns
 
@@ -239,9 +239,9 @@ We can add one more entry in the first column, below current row.
 
     Go to first entry in `Actual Date` column, drag the small square till you get to the end of it, so that there’s a `Date` entry for each of the entry in `Actual Date`.
 
-{% embed url="https://youtu.be/0u\_XQvMzfgQ" %}
+<lite-youtube class="youtube-player-dark" videoid="0u_XQvMzfgQ"></lite-youtube>
 
-{% embed url="https://youtu.be/DoHIGMBXlFM" %}
+<lite-youtube class="youtube-player-light" videoid="DoHIGMBXlFM"></lite-youtube>
 
 ???+ warning
     ⚠️ 🚨 Some cells might have `#NA` and say that there’s an error in getting data from Google Finance. This is a quirk of the `GOOGLEFINANCE()` query. This can be fixed easily, but would require some manual intervention.
@@ -274,9 +274,9 @@ Here’s how it could look like now (a section from the sheet)
 | 01/07/2005 | 01/07/2005  |          | 2057.37 |       |
 | 01/08/2005 | 01/08/2005  |          | 2195.38 |       |
 
-{% embed url="https://youtu.be/8\_d1vY4dcjQ" %}
+<lite-youtube class="youtube-player-dark" videoid="8_d1vY4dcjQ"></lite-youtube>
 
-{% embed url="https://youtu.be/Xe5KAqYmS0o" %}
+<lite-youtube class="youtube-player-light" videoid="Xe5KAqYmS0o"></lite-youtube>
 
 This is a common problem with this spreadsheet function, and others have solved it with different approaches.
 

@@ -119,9 +119,9 @@ On the other hand, growth rate computed using in-built formula is close to the r
 
 We've used `GOOGLEFINANCE()` to prepare this video for guidance
 
-{% embed url="https://www.youtube.com/watch?v=F2cLCI\_Nwn0" caption="Calculation of CAGR for Mutual Fund using Google Finance - Dark Mode" %}
+<lite-youtube class="youtube-player-dark" videoid="F2cLCI_Nwn0"></lite-youtube>
 
-{% embed url="https://www.youtube.com/watch?v=EvugA04SAe8" caption="Calculation of CAGR for Mutual Fund using Google Finance - Light Mode" %}
+<lite-youtube class="youtube-player-light" videoid="EvugA04SAe8"></lite-youtube>
 
 ### Cross-checking Nifty 3Y CAGR
 
@@ -129,9 +129,9 @@ Now that we've verified CAGR of the index fund over 3 years, independently, and 
 
 Once again, we can use `GOOGLEFINANCE()` for getting historic Nifty price data. The ticker for Nifty can be `"NIFTY_50"` or `"INDEXNSE:NIFTY_50"`.
 
-{% embed url="https://www.youtube.com/watch?v=3LD3Pesl0eY" caption="Computing CAGR of Nifty with Google Finance - Dark Mode" %}
+<lite-youtube class="youtube-player-dark" videoid="3LD3Pesl0eY"></lite-youtube>
 
-{% embed url="https://www.youtube.com/watch?v=2xbL4UwQ9og" caption="Computing CAGR of Nifty with Google Finance - Light Mode" %}
+<lite-youtube class="youtube-player-light" videoid="2xbL4UwQ9og"></lite-youtube>
 
 Final results as it can be
 
@@ -277,9 +277,9 @@ Spreadsheets have fantastic charting / plotting abilities built in. You could us
 
 Refer to this video on how to get this working
 
-{% embed url="https://www.youtube.com/watch?v=JXSn2dZ0Qek" caption="Semi-log Plot for CAGR Visualization - Dark Mode" %}
+<lite-youtube class="youtube-player-dark" videoid="JXSn2dZ0Qek"></lite-youtube>
 
-{% embed url="https://www.youtube.com/watch?v=eEAseRxyaAk" caption="Semi-log Plot for CAGR Visualization - Light Mode" %}
+<lite-youtube class="youtube-player-light" videoid="eEAseRxyaAk"></lite-youtube>
 
 ![Semi-log plot of all datasets - Dark Mode](/images/nifty-3y-cagr-semilog-plot.dark.png){.dark-mode-image}
 

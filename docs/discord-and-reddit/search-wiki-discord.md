@@ -6,7 +6,7 @@ description: Search the wiki using slash command /wiki, offered by India Investm
 
 You can search this wiki from our Discord itself, using India Investments bot's slash command.
 
-{% embed url="https://www.youtube.com/watch?v=aGFfAYaZfy4" caption="" %}
+<lite-youtube class="youtube-player-nocolor" videoid="aGFfAYaZfy4"></lite-youtube>
 
 ## Steps
 
@@ -19,7 +19,7 @@ You can search this wiki from our Discord itself, using India Investments bot's 
 
 ![Discord Slash Command for Querying Wiki - Desktop](/images/discord-slash-command-wiki-search-desktop.png)
 
-![Discord Slash Command for Querying Wiki - Mobile](/images/discord-slash-command-wiki-search-mobile%20%281%29%20%281%29.jpeg)
+![Discord Slash Command for Querying Wiki - Mobile](/images/discord-slash-command-wiki-search-mobile%20%281%29%20%281%29%20%281%29.jpeg)
 
 ## How it'd look
 

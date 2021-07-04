@@ -108,9 +108,9 @@ Notice the `""` around comma. Second argument to the `SPLIT` function is a strin
 
 Use it as shown in the video (s) below.
 
-{% embed url="https://www.youtube.com/watch?v=yxjhhLaMH4g" caption="Invoking SPLIT() function - Dark Mode" %}
+<lite-youtube class="youtube-player-dark" videoid="yxjhhLaMH4g"></lite-youtube>
 
-{% embed url="https://www.youtube.com/watch?v=oohR6-QaDKg" caption="Invoking SPLIT() function - Light Mode" %}
+<lite-youtube class="youtube-player-light" videoid="oohR6-QaDKg"></lite-youtube>
 
 Notice how the output of `SPLIT()` function spreads the result into multiple cells, in **same row**.
 
@@ -206,9 +206,9 @@ Then paste it in your spreadsheet, and do the following:
 
 Refer to the video(s) below
 
-{% embed url="https://www.youtube.com/watch?v=3zUDl3cQSFU" caption=" Breaking CSV into Rows and Columns - Dark Mode" %}
+<lite-youtube class="youtube-player-dark" videoid="3zUDl3cQSFU"></lite-youtube>
 
-{% embed url="https://www.youtube.com/watch?v=kLfIAQ8rTSY" caption=" Breaking CSV into Rows and Columns - Light Mode" %}
+<lite-youtube class="youtube-player-light" videoid="kLfIAQ8rTSY"></lite-youtube>
 
 Final result should look like as follows:
 

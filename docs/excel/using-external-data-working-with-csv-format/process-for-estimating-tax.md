@@ -166,9 +166,9 @@ Technically, you won't need to fill out all 18k+ rows. As long as you fill out e
 
 Refer to the following video(s) for reference
 
-{% embed url="https://www.youtube.com/watch?v=URcjv1P\_dcA" caption="Fetching and processing latest NAV from AMFI - Dark Mode" %}
+<lite-youtube class="youtube-player-dark" videoid="URcjv1P_dcA"></lite-youtube>
 
-{% embed url="https://www.youtube.com/watch?v=LGD\_N6mBCXA" caption="Fetching and processing latest NAV from AMFI - Light Mode" %}
+<lite-youtube class="youtube-player-light" videoid="LGD_N6mBCXA"></lite-youtube>
 
 Your sheets would now have latest available NAV from all mutual funds, in a nice table format.
 
@@ -225,9 +225,9 @@ Follow these steps:
 
 Refer to this video to follow along steps:
 
-{% embed url="https://www.youtube.com/watch?v=WUavhFi8XLY" caption="Using VLOOKUP() to compute latest value - Dark Mode" %}
+<lite-youtube class="youtube-player-dark" videoid="WUavhFi8XLY"></lite-youtube>
 
-{% embed url="https://www.youtube.com/watch?v=QDdToO78UgQ" caption="Using VLOOKUP() to compute latest value - Light Mode" %}
+<lite-youtube class="youtube-player-light" videoid="QDdToO78UgQ"></lite-youtube>
 
 Final outcome in the newly added column, should be similar to these screenshots:
 

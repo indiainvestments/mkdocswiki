@@ -515,9 +515,9 @@ We are referring across sheet, the reference works out as `<name of the sheet>!<
 
 Refer to this video for more guidance:
 
-{% embed url="https://www.youtube.com/watch?v=iXOSl-pfrC8" caption="Extracting Unique Fund Names - Dark Mode" %}
+<lite-youtube class="youtube-player-dark" videoid="iXOSl-pfrC8"></lite-youtube>
 
-{% embed url="https://www.youtube.com/watch?v=Q8KinGUG\_Ug" caption="Extracting Unique Fund Names - Light Mode" %}
+<lite-youtube class="youtube-player-light" videoid="Q8KinGUG_Ug"></lite-youtube>
 
 Final outcome of this process should look like as follows
 
@@ -601,9 +601,9 @@ Follow these steps:
 
 Refer to the following video(s)
 
-{% embed url="https://www.youtube.com/watch?v=Oson6YaYs\_U" caption="Computing Units Sold with SUMIFS() - Dark Mode" %}
+<lite-youtube class="youtube-player-dark" videoid="Oson6YaYs_U"></lite-youtube>
 
-{% embed url="https://www.youtube.com/watch?v=F-gcflvRs50" caption="Computing Units Sold with SUMIFS() - Light Mode" %}
+<lite-youtube class="youtube-player-light" videoid="F-gcflvRs50"></lite-youtube>
 
 Final result should match this
 
@@ -681,9 +681,9 @@ The `SUMIFS()` would get one more condition with 2 more arguments - that purchas
 
 Refer to the following video:
 
-{% embed url="https://www.youtube.com/watch?v=3XqMbPsOB00" caption="Computing Units Purchased &gt; 1 Year - Dark Mode" %}
+<lite-youtube class="youtube-player-dark" videoid="3XqMbPsOB00"></lite-youtube>
 
-{% embed url="https://www.youtube.com/watch?v=IDuWjJcHjCI" caption="Computing Units Purchased &gt; 1 Year - Light Mode" %}
+<lite-youtube class="youtube-player-light" videoid="IDuWjJcHjCI"></lite-youtube>
 
 Final result should match these
 

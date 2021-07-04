@@ -86,9 +86,9 @@ So far, we’ve used only the former, when we copy-pasted the table into our she
 
 Here’s a video to guide you along (both in dark and light theme)
 
-{% embed url="https://www.youtube.com/watch?v=VNGmwRojwKU&feature=emb\_logo" caption="Excel functions: Dark Theme" %}
+<lite-youtube class="youtube-player-dark" videoid="VNGmwRojwKU"></lite-youtube>
 
-{% embed url="https://www.youtube.com/watch?v=-fOUzyMvAm4&feature=emb\_logo" caption="Excel functions: Light theme" %}
+<lite-youtube class="youtube-player-light" videoid="-fOUzyMvAm4"></lite-youtube>
 
 If you’ve done everything as demonstrated / instructed above, you should have same exact value of 60 in that cell, as you’d earlier.
 
@@ -132,9 +132,9 @@ Excel would keep incrementing row numbers in cell ID as you drag vertically down
 
 Here’s a video to help guide you alone with the above steps:
 
-{% embed url="https://www.youtube.com/watch?v=iXcmwxIEdeM&feature=emb\_logo" caption="Excel dragging : Dark theme" %}
+<lite-youtube class="youtube-player-dark" videoid="iXcmwxIEdeM"></lite-youtube>
 
-{% embed url="https://www.youtube.com/watch?v=oUmZ\_Ir-QVc&feature=emb\_logo" caption="Excel dragging: Light theme" %}
+<lite-youtube class="youtube-player-light" videoid="oUmZ_Ir-QVc"></lite-youtube>
 
 Assuming you’ve done everything right up to this point; the numbers in the newly created column, for a given row, should be exactly same as the penultimate (last but one) column.
 
@@ -174,9 +174,9 @@ Follow these steps:
 
 Here’s a video to help guide you along (available in both dark & light themes)
 
-{% embed url="https://www.youtube.com/watch?v=kYlH5pTHn1E&feature=emb\_logo" caption="Excel SUM: Dark theme" %}
+<lite-youtube class="youtube-player-dark" videoid="kYlH5pTHn1E"></lite-youtube>
 
-{% embed url="https://www.youtube.com/watch?v=SQJ58fZrFag&feature=emb\_logo" caption="Excel SUM: Light theme" %}
+<lite-youtube class="youtube-player-light" videoid="SQJ58fZrFag"></lite-youtube>
 
 If you’ve done everything as instructed, up to this point, it should look as shown below
 
@@ -214,9 +214,9 @@ To see how it *reacts*, change any of the values in the column:
 
 Here’s a video to help demonstrate this:
 
-{% embed url="https://www.youtube.com/watch?v=zudUxsaLHoQ&feature=emb\_logo" caption="Excel Reactive-ness: Dark theme" %}
+<lite-youtube class="youtube-player-dark" videoid="zudUxsaLHoQ"></lite-youtube>
 
-{% embed url="https://www.youtube.com/watch?v=zdLOMk6VCd0&feature=emb\_logo" caption="Excel Reactiveness: Light theme" %}
+<lite-youtube class="youtube-player-light" videoid="zdLOMk6VCd0"></lite-youtube>
 
 ## Recap
 

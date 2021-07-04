@@ -66,9 +66,9 @@ For example, if someone asks (let's say, user name is `@beginnerinvestor`) *hey 
 
 Bot would delete your message, and add its own message, tagging `@beginnerinvestor`
 
-{% embed url="https://youtu.be/QJxJVEU6D48" caption="Invoking the bot for FAQ in Discord - Dark Mode" %}
+<lite-youtube class="youtube-player-dark" videoid="QJxJVEU6D48"></lite-youtube>
 
-{% embed url="https://youtu.be/Jh9WnK6FPL4" caption="Invoking the bot for FAQ in Discord - Light Mode" %}
+<lite-youtube class="youtube-player-light" videoid="Jh9WnK6FPL4"></lite-youtube>
 
 ## Prerequisites ✋
 

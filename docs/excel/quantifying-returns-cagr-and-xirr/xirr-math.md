@@ -153,9 +153,9 @@ We had already created a table and verified the XIRR to be $$3.52\%$$p.a.
 
 This video should help with above steps:
 
-{% embed url="https://www.youtube.com/watch?v=zDtcmcWD3O0" caption="Verifying XIRR with sum of discounted cashflows - Dark Mode" %}
+<lite-youtube class="youtube-player-dark" videoid="zDtcmcWD3O0"></lite-youtube>
 
-{% embed url="https://www.youtube.com/watch?v=9j5vqGYEo8E&feature=emb\_logo" caption="Verifying XIRR with sum of discounted cashflows - Light Mode" %}
+<lite-youtube class="youtube-player-light" videoid="9j5vqGYEo8E"></lite-youtube>
 
 Final result should resemble this:
 
@@ -316,9 +316,9 @@ To understand why the decay over time moves like that, we can plot similar graph
 
 Here’s a short video to help you out, though it’s quite straight-forward, if you’ve followed along thus far:
 
-{% embed url="https://www.youtube.com/watch?v=u10zyhm7FpQ&feature=emb\_logo" caption="Decay Plot of Discounted Cashflow - Dark Mode" %}
+<lite-youtube class="youtube-player-dark" videoid="u10zyhm7FpQ"></lite-youtube>
 
-{% embed url="https://www.youtube.com/watch?v=-ujqL8h8cAI" caption="Decay Plot of Discounted Cashflow - Light Mode" %}
+<lite-youtube class="youtube-player-light" videoid="-ujqL8h8cAI"></lite-youtube>
 
 Final plot should look like this:
 

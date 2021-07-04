@@ -93,7 +93,7 @@ Once you get invited to join our team, it's expected that you'd put in some effo
 
 We've made a small video that you can watch, to get a glimpse on how you can create and view content on our wiki, using GitBook.
 
-{% embed url="https://www.youtube.com/watch?v=7ASJsUbKVks" %}
+<lite-youtube class="youtube-player-nocolor" videoid="7ASJsUbKVks"></lite-youtube>
 
 #### Using Markdown and Git
 
