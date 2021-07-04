@@ -41,6 +41,10 @@ plugins:
 
 extra_css:
   - css/image_toggle.css
+  - css/youtube_toggle.css
+  - css/lite-yt-embed.css
+extra_javascript:
+  - js/lite-yt-embed.js
 
 theme:
   name: material

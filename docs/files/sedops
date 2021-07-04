@@ -115,6 +115,7 @@ get_title() {
 pageref() {
   local link
   local title
+  local len
   mapfile -t LINUM < <(grep -n '^{% page-ref page=".*" %}$' "$@" | awk -F ':' '{print $1}')
   mapfile -t LINES < <(grep '^{% page-ref page=".*" %}$' "$@")
   len="${#LINUM[@]}"
@@ -124,6 +125,48 @@ pageref() {
     link=$(get_link "${LINES[$i]}")
     title=$(get_title "${LINES[$i]}")
     sed -i "${LINUM[$i]}s_.*_[$title]($link){ .md-button }_" "$@"
+    ((i = i + 1))
+  done
+  unset LINUM
+  unset LINES
+}
+
+# tried to use the `maxresdefault.jpg` thumbnail instead of `hqdefault.jpg` but
+# it doesn't work for some videos
+# for example
+# https://i.ytimg.com/vi/-ujqL8h8cAI/maxresdefault.jpg
+ytfix() {
+  local dataid
+  # local thumb
+  local theme
+  local len
+  local i
+  mapfile -t VIDNUM < <(grep -n '^{% embed.*youtu.*%}$' "$@" | awk -F ':' '{print $1}')
+  mapfile -t VIDS < <(grep '^{% embed.*youtu.*%}$' "$@")
+  len="${#VIDNUM[@]}"
+  ((len = len - 1))
+  i=0
+  while [[ $i -le $len ]]; do
+    if [[ ${VIDS[$i]} =~ youtube.com ]]; then
+      dataid=$(echo "${VIDS[$i]}" | awk -F '[="&]' '{print $4}')
+    elif [[ ${VIDS[$i]} =~ youtu.be ]]; then
+      dataid=$(echo "${VIDS[$i]}" | awk -F '[/"&]' '{print $5}')
+    else
+      printf '%s\n' "No YT URL found"
+    fi
+
+    if [[ ${VIDS[$i],,} =~ dark ]]; then
+      theme='youtube-player-dark'
+    elif [[ ${VIDS[$i],,} =~ light ]]; then
+      theme='youtube-player-light'
+    else
+      theme='youtube-player-nocolor'
+    fi
+
+    #   thumb="https://i.ytimg.com/vi/$dataid/maxresdefault.jpg"
+    #   sed -i "${VIDNUM[$i]}s_.*_<lite-youtube videoid=\"$dataid\" style=\"background-image: url\('$thumb'\)\;\"></lite-youtube>_" "$@"
+    sed -i "${VIDNUM[$i]}s_.*_<lite-youtube class=\"$theme\" videoid=\"$dataid\"></lite-youtube>_" "$@"
+
     ((i = i + 1))
   done
 }
@@ -138,8 +181,9 @@ case "$command" in
   img) imgcnv "$@" ;;
   imgclass) addimgclass "$@" ;;
   pref) pageref "$@" ;;
+  ytfix) ytfix "$@" ;;
   *)
-    printf '%s\n' 'Usage: sedops spaces|endhint|replace|img|imgclass|pref' >&2
+    printf '%s\n' 'Usage: sedops spaces|endhint|replace|img|imgclass|pref|ytfix' >&2
     exit 1
     ;;
 esac
