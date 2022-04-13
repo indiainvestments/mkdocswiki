@@ -20,7 +20,7 @@ An annual report is a document that any listed company is required to provide to
 
 ### Where can an investor access annual reports of a company?
 
-As per the Securities and Exchange Board of India (SEBI) listing obligations and disclosure requirements\[^1\](https://www.sebi.gov.in/legal/regulations/sep-2015/securities-and-exchange-board-of-india-listing-obligations-and-disclosure-requirements-regulations-2015-last-amended-on-january-08-2021-\_37269.html), a listed entity must
+As per the Securities and Exchange Board of India (SEBI) listing obligations and disclosure requirements, a listed entity must
 
 -   submit its annual report on the stock exchanges, and
 -   upload it on the company's official website
@@ -29,17 +29,17 @@ Apart from the stock exchanges and the company's website, annual reports can als
 
 #### Stock Exchange Filings
 
--   The **Bombay Stock Exchange**'s (BSE) website can be found at <https://www.bseindia.com/>
+-   The **Bombay Stock Exchange**'s (BSE) website can be found at [https://www.bseindia.com/](https://www.bseindia.com)
 
     Once you are on BSE's websites, you can search for the company on the search bar located at top right of the website > scroll down to find *Financials* toggle in the left sidebar > and click on *Annual Reports* to find the past ten years of annual reports of the company.
 
 ![Bombay Stock Exchange (BSE)'s website](/images/bvba6us-1-.png)
 
--   The **National Stock Exchange of India**'s website can be found at <https://www.nseindia.com/>
+-   The **National Stock Exchange of India**'s website can be found at [https://www.nseindia.com/](https://www.nseindia.com)
 
-    You can simply search for the company's name in corporate filings > [annual reports page](https://www.notion.so/%5B%3Chttps://www.nseindia.com/companies-listing/corporate-filings-annual-reports%3E%5D%28%3Chttps://www.nseindia.com/companies-listing/corporate-filings-annual-reports%3E%29) on NSE's website.
+    You can simply search for the company's name in corporate filings > [annual reports page](https://www.nseindia.com/companies-listing/corporate-filings-annual-reports) on NSE's website.
 
-![Annual Reports page on Natinal Stock Exchange of India (NSE)'s website](/images/ejzlhmo%20%281%29.png)
+![Annual Reports page on Natinal Stock Exchange of India (NSE)'s website](/images/ejzlhmo%20(1).png)
 
 #### Investor Relations page on Company's website
 
@@ -53,7 +53,7 @@ For instance, Bajaj Auto's annual report can be found [here](https://www.bajajau
 
 You can also find annual reports of companies on various screener and financial data aggregator websites. Generally, they're just links to the PDFs used for company's filings on stock exchanges.
 
-For instance, on [Screener.in](http://screener.in/), you can find annual reports of past few years under the documents section of a company's page. [Screener.in](http://screener.in/) generally links this to BSE's repository of filings.
+For instance, on [Screener.in](http://screener.in), you can find annual reports of past few years under the documents section of a company's page. [Screener.in](http://screener.in) generally links this to BSE's repository of filings.
 
 ![Eicher Motor's company page on Screener.in](/images/mzw4ild-1-.png)
 
@@ -84,7 +84,7 @@ Though it is not mandated by law, companies usually take the opportunity to comm
 -   Updates to the projects, or investments announced in the past years
 -   Any other key event that took place in relation to the company
 
-![Tata Consultancy Services Ltd's Annual Report (FY20)](/images/vwbljvj%20%281%29.png)
+![Tata Consultancy Services Ltd's Annual Report (FY20)](/images/vwbljvj%20(1).png)
 
 You may find this section sometimes containing two letters, one from the Managing Director (representing the board of directors) and the other from Chief Executive Officer (representing the management team) of the company.
 
@@ -106,7 +106,7 @@ You can, and should check whether the management is able to deliver on commitmen
 
 #### Management Discussion & Analysis
 
-Unlike *Management's letters to shareholders*, this section is mandated\[^2\](https://www.icsi.edu/media/portals/71/publications%20and%20resources/Disclosures\_in\_Annual\_Report%20%28CS%20Balasubramanian%20R%29.pdf) to be placed in an annual report either as a part of Directors report, or as its own entity. SEBI regulations\[^1\](https://www.sebi.gov.in/legal/regulations/sep-2015/securities-and-exchange-board-of-india-listing-obligations-and-disclosure-requirements-regulations-2015-last-amended-on-january-08-2021-\_37269.html) instruct the management of companies to include the following discussions/analysis under this section (*We've added relevant excerpts from ARs of two different companies*):
+Unlike *Management's letters to shareholders*, this section is mandated\[^2\](https://www.icsi.edu/media/portals/71/publications%20and%20resources/Disclosures\_in\_Annual\_Report%20(CS%20Balasubramanian%20R).pdf) to be placed in an annual report either as a part of Directors report, or as its own entity. SEBI regulations\[^1\](https://www.sebi.gov.in/legal/regulations/sep-2015/securities-and-exchange-board-of-india-listing-obligations-and-disclosure-requirements-regulations-2015-last-amended-on-january-08-2021-\_37269.html) instruct the management of companies to include the following discussions/analysis under this section (*We've added relevant excerpts from ARs of two different companies*):
 
 -   Industry structure & developments
 
@@ -124,7 +124,7 @@ Unlike *Management's letters to shareholders*, this section is mandated\[^2\](ht
 
 ![Ruchira Papers Ltd's Annual Report (FY20)](/images/z0dezct.png)
 
-Apart from these, SEBI regulations\[^1\](https://www.sebi.gov.in/legal/regulations/sep-2015/securities-and-exchange-board-of-india-listing-obligations-and-disclosure-requirements-regulations-2015-last-amended-on-january-08-2021-\_37269.html) also make the inclusion of following points mandatory in this section:
+SEBI regulations make the inclusion of following points mandatory in this section:
 
 -   Outlook for the business conducted
 -   Internal control systems and their adequacy
@@ -201,8 +201,6 @@ The financial statements section includes standalone and consolidated (where app
 
 ![Tata Consultancy Services Ltd's Annual Report (FY20)](/images/giykexf.png)
 
-We've covered how to understand financial statement under the [*'Financial statements — How to read them & what to look for'*](https://indiainvestments.gitbook.io/content/wiki/financial-statements) chapter of this series.
-
 ### Notes to Financial Statements
 
 You can refer to detailed calculation or breakup of figures reported in financial statements of the company under the *Notes to Financial Statement* section to get a better understanding of the business. For instance, you can often find the interest rates at which the company has taken up a loan under the note elaborating borrowings of a company. Figures in financial statements are accompanied by an index consisting of the serial number of the note interlinked with a specific figure. Take this screenshot taken from Tata Consulatancy Services' profit and loss statement.
@@ -211,7 +209,7 @@ You can refer to detailed calculation or breakup of figures reported in financia
 
 Suppose you want to investigate about the finance costs reported, you simply have to check the note number in front of the heading, and look for note 16 under the *Notes to financial statements* section. You'll find the breakup of finance costs given under the note.
 
-![Tata Consultancy Services Ltd's Annual Report (FY20)](/images/lfypkoe.png)
+![Tata Consultancy Services Ltd's Annual Report (FY20)](/images/lfypkoe%20(1).png)
 
 Apart from calculation / breakup of figures, this section also provides information about accounting policies followed by the company in preparing the financial statements, and specifically mentions any change to the policy introduced in the year under review.
 
@@ -221,14 +219,14 @@ Companies are required by law to disclose all transactions (transfer of resource
 
 ![Tata Consultancy Services Ltd's Annual Report (FY20)](/images/ony0odd.png)
 
-We have talked about understanding related party transactions under the [*'Evaluation of management of a company from an investing perspective'*](https://indiainvestments.gitbook.io/content/wiki/evaluation-of-management) chapter of this series.
+We have talked about understanding related party transactions under the [*'Evaluation of management of a company from an investing perspective'*](https://www.indiainvestments.wiki/stocks/reading-an-annual-report#related-party-transactions) chapter of this series.
 
 ## Some Recommendations
 
 -   **Reading order for annual reports of a company:** Personally, I prefer and recommend reading at-least past 5 years of annual report of a company before making an investment decision, ordered from oldest to newest or you may take a small, immaterial token position (i.e. capital you can afford to lose) and then study the company reports in detail before increasing your position. I've often encountered companies that have a listing history of nearly 5 years. In that case, I read the Red Herring Prospectus of the company as well, since it's usually more comprehensive regarding risks and threats the company may face.
--   As mentioned in the disclaimer, you are advised to avoid skipping any contents of an annual report that I may have missed in this section. The contents and organization of annual reports vary from company to company, and so I've tried to include sections I've come across under most annual reports, but more importantly, all sections that are mandated to be included in an annual report\[^2\](https://www.icsi.edu/media/portals/71/publications%20and%20resources/Disclosures\_in\_Annual\_Report%20%28CS%20Balasubramanian%20R%29.pdf) by Schedule V of LODR Regulations, and Section 134 and other applicable provisions of the Companies Act.
--   The ability to create & export highlights helps in efficiently going through an annual report — So use a PDF viewer if you can! Personally, I use [Polar](https://getpolarized.io/) -- its online, tracks progress, and gives you the ability to export your highlights.
+-   As mentioned in the disclaimer, you are advised to avoid skipping any contents of an annual report that I may have missed in this section. The contents and organization of annual reports vary from company to company, and so I've tried to include sections I've come across under most annual reports, but more importantly, all sections that are mandated to be included in an annual report\[^2\](https://www.icsi.edu/media/portals/71/publications%20and%20resources/Disclosures\_in\_Annual\_Report%20(CS%20Balasubramanian%20R).pdf) by Schedule V of LODR Regulations, and Section 134 and other applicable provisions of the Companies Act.
+-   The ability to create & export highlights helps in efficiently going through an annual report — So use a PDF viewer if you can! Personally, I use [Polar](https://getpolarized.io) -- its online, tracks progress, and gives you the ability to export your highlights.
 
 ## Conclusion
 
-We've previously mentioned the importance of conducting thorough due diligence while researching a company in the section [*Can you beat the market?*](https://indiainvestments.gitbook.io/content/wiki/can-you-beat-the-market) chapter of this series. Reading an annual report is essential to get a better understanding of the business a company is engaged in, but sometimes the technical terms used in an annual report may repel the uninitiated, and so we've tried to explain most sections found in an annual report.
+We've previously mentioned the importance of conducting thorough due diligence while researching a company in the section [*Can you beat the market?*](https://www.indiainvestments.wiki/stocks/can-you-beat-the-market) chapter of this series. Reading an annual report is essential to get a better understanding of the business a company is engaged in, but sometimes the technical terms used in an annual report may repel the uninitiated, and so we've tried to explain most sections found in an annual report.

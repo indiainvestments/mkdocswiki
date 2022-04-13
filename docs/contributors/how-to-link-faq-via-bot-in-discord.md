@@ -12,9 +12,9 @@ We have FAQs on our wiki, for queries such as these, that addresses such queries
 
 We've a setup that solves this problem - any active member can invoke the bot with a specific tag, and the bot would take care of presenting right information to the user.
 
-![Sample invocation of bot against a common query - Dark mode](/images/sample-bot-invoke.dark.png){.dark-mode-image}
+![Sample invocation of bot against a common query - Dark mode](/images/sample-bot-invoke.dark%20(1).png){.dark-mode-image}
 
-![Sample invocation of bot against a common query - Light mode](/images/sample-bot-invoke.light.png){.light-mode-image}
+![Sample invocation of bot against a common query - Light mode](/images/sample-bot-invoke.light%20(1).png){.light-mode-image}
 
 We'll explore next how to invoke this bot
 
@@ -28,9 +28,9 @@ List of all available tag-based triggers can be found by typing `.taglist` in `#
 
 Once this message is typed, Carl-bot would DM you the list of available tags.
 
-![Sample message sent by bot - Dark Mode](/images/bot-dm-taglist.dark.png){.dark-mode-image}
+![Sample message sent by bot - Dark Mode](/images/bot-dm-taglist.dark%20(1).png){.dark-mode-image}
 
-![Sample message sent by bot - Light mode](/images/bot-dm-taglist.light.png){.light-mode-image}
+![Sample message sent by bot - Light mode](/images/bot-dm-taglist.light%20(1).png){.light-mode-image}
 
 Above image(s) are illustrative. Actual list can be different, and change from time to time. For latest updated list, you can use `.taglist` in `#test` channel.
 
@@ -39,7 +39,7 @@ Above image(s) are illustrative. Actual list can be different, and change from t
 Below are the exhaustive list of all tags, what kind of typical query / comment should someone ask to get that as response, and the expected response from bot .
 
 | Trigger words   | Typical comment                                                                                               | Expected response                                                                                                                                                                                                                                                                                                                                                            |
-|:----------------|:--------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|-----------------|---------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `.disc`         | *What should I know before I start reading the wiki?*                                                         | Hey `@user`, before you start reading our wiki, it's best you read through our disclaimers and disclosures. Just because we discuss a specific stock, or bond, or mutual fund, or even any investment apps in our wiki; doesn't mean we're recommending those. [Read more here](https://indiainvestments.gitbook.io/content/disclaimers-and-disclosures)                     |
 | `.direct`       | *Why should I invest in direct plans?*                                                                        | Hey `@user`, Direct plans of mutual funds have no commission, and fees are lower compared to its Regular plan counterpart. Returns are higher with no extra risk. [Read this for more details](https://indiainvestments.gitbook.io/content/faqs/mfs/direct-vs-regular)                                                                                                       |
 | `.bestmf`       | *Which is the best mutual fund?*, *What MF should I invest in?*                                               | Hello `@user`, no one can predict how a mutual fund would perform in the long run. Data also shows consistently chasing best mutual funds result in behaviour gap. Pick one that you can stay with for long term. Learn more [here](https://indiainvestments.gitbook.io/content/faqs/whats-the-best-mutual-fund-i-can-invest-in)                                             |
@@ -66,9 +66,9 @@ For example, if someone asks (let's say, user name is `@beginnerinvestor`) *hey 
 
 Bot would delete your message, and add its own message, tagging `@beginnerinvestor`
 
-<lite-youtube class="youtube-player-dark" videoid="QJxJVEU6D48"></lite-youtube>
+<lite-youtube class="youtube-player-nocolor" videoid="QJxJVEU6D48"></lite-youtube>
 
-<lite-youtube class="youtube-player-light" videoid="Jh9WnK6FPL4"></lite-youtube>
+<lite-youtube class="youtube-player-nocolor" videoid="Jh9WnK6FPL4"></lite-youtube>
 
 ## Prerequisites ✋
 
@@ -76,6 +76,8 @@ We expect you to familiarize yourself with all the FAQs, before starting with th
 
 You can go through our FAQs using below link
 
-[FAQs](../faqs/index.md){ .md-button }
+{% content-ref url="../faqs/index.md" %}
+[index.md](../faqs/index.md)
+{% endcontent-ref %}
 
 If you're using the bot to invoke the FAQ, it's expected that you've yourself at the very least gone through that FAQ first.

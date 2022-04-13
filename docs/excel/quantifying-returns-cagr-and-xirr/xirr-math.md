@@ -4,7 +4,7 @@ description: Mathematical formulation of XIRR, discounted cashflows, NPV, and de
 
 # A Rigorous Introduction to XIRR
 
-## Intro <a id="Intro"></a>
+## Intro <a href="#intro" id="intro"></a>
 
 Now that we’ve gained some ideas about XIRR (e**X**tended **I**nternal **R**ate of **R**eturn), it’s time to formally introduce XIRR.
 
@@ -12,7 +12,7 @@ XIRR is tightly coupled with concept of *discounting*.
 
 Discounting can be thought of as the opposite of *compounding*.
 
-## Discounting and XIRR <a id="Discounting-and-XIRR"></a>
+## Discounting and XIRR <a href="#discounting-and-xirr" id="discounting-and-xirr"></a>
 
 Popularly, compounding formula is written as $$P\times(1+r)^t$$.
 
@@ -24,7 +24,7 @@ In case of compounding, with time, the final value increases.
 
 With discounting, as expected from the above formula, the decayed value gets lower as more time passes.
 
-#### Sample Cashflow Table <a id="Sample-Cashflow-Table"></a>
+#### Sample Cashflow Table <a href="#sample-cashflow-table" id="sample-cashflow-table"></a>
 
 Assume that we’ve a cashflow series, written like this:
 
@@ -77,7 +77,7 @@ $$NPV = \sum_{i = 0}^{n - 1} \displaystyle\frac{P_i}{(1 + r)^{[\frac{(t_i - t_0)
 
 This formula has *summation* symbol $$\sum$$ , which allows us to write sum of a series of numbers in a succinct manner.
 
-#### Definition of XIRR <a id="Definition-of-XIRR"></a>
+#### Definition of XIRR <a href="#definition-of-xirr" id="definition-of-xirr"></a>
 
 XIRR of a given cashflow time-series data, is defined as value of $$r$$, the rate of discounting, such that **NPV is 0**.
 
@@ -91,28 +91,28 @@ Number of entries, is $$n=20$$.
 
 We fill the table up, mapping cashflow variables to values.
 
-|           Date            |            Cashflow            |
-|:-------------------------:|:------------------------------:|
-|  $$t_0 = $$ 1st Jan 2021  | $$P_0=$$ $$-$$<!-- -->100,000  |
-|  $$t_1 = $$ 1st Jan 2022  | $$P_1=$$ $$-$$<!-- -->100,000  |
-|   $$t2=$$ 1st Jan 2023    | $$P_2 =$$ $$-$$<!-- -->100,000 |
-|  $$t_3 =$$ 1st Jan 2024   | $$P_3 =$$ $$-$$<!-- -->100,000 |
-|  $$t_4 =$$ 1st Jan 2025   | $$P_4=$$ $$-$$<!-- -->100,000  |
-|   $$t_5=$$ 1st Jan 2026   | $$P_5=$$ $$-$$<!-- -->100,000  |
-|   $$t_6=$$ 1st Jan 2027   | $$P_6=$$ $$-$$<!-- -->100,000  |
-|   $$t_7=$$ 1st Jan 2028   |  $$P_7=$$$$-$$<!-- -->100,000  |
-|   $$t_8=$$ 1st Jan 2029   | $$P_8 =$$ $$-$$<!-- -->100,000 |
-|  $$t_9 =$$ 1st Jan 2030   | $$P_9=$$ $$-$$<!-- -->100,000  |
-| $$t_{10} =$$ 1st Jan 2041 |      $$P_{10} =$$ 200,000      |
-| $$t_{11}=$$ 1st Jan 2042  |      $$P_{11} =$$ 200,000      |
-| $$t_{12}=$$ 1st Jan 2043  |      $$P_{12} =$$ 200,000      |
-| $$t_{13} =$$ 1st Jan 2044 |      $$P_{13} =$$ 200,000      |
-| $$t_{14} =$$ 1st Jan 2045 |      $$P_{14}=$$ 200,000       |
-| $$t_{15}=$$ 1st Jan 2046  |      $$P_{15} =$$ 200,000      |
-| $$t_{16} =$$ 1st Jan 2047 |      $$P_{16}=$$ 200,000       |
-| $$t_{17}=$$ 1st Jan 2048  |      $$P_{17}=$$ 200,000       |
-| $$t_{18}=$$ 1st Jan 2049  |      $$P_{18}=$$ 200,000       |
-| $$t_{19}=$$ 1st Jan 2050  |      $$P_{19}=$$ 200,000       |
+|             Date              |            Cashflow            |
+|:-----------------------------:|:------------------------------:|
+| $$t_0 =$$<!-- -->1st Jan 2021 | $$P_0=$$ $$-$$<!-- -->100,000  |
+| $$t_1 =$$<!-- -->1st Jan 2022 | $$P_1=$$ $$-$$<!-- -->100,000  |
+|     $$t2=$$ 1st Jan 2023      | $$P_2 =$$ $$-$$<!-- -->100,000 |
+|    $$t_3 =$$ 1st Jan 2024     | $$P_3 =$$ $$-$$<!-- -->100,000 |
+|    $$t_4 =$$ 1st Jan 2025     | $$P_4=$$ $$-$$<!-- -->100,000  |
+|     $$t_5=$$ 1st Jan 2026     | $$P_5=$$ $$-$$<!-- -->100,000  |
+|     $$t_6=$$ 1st Jan 2027     | $$P_6=$$ $$-$$<!-- -->100,000  |
+|     $$t_7=$$ 1st Jan 2028     |  $$P_7=$$$$-$$<!-- -->100,000  |
+|     $$t_8=$$ 1st Jan 2029     | $$P_8 =$$ $$-$$<!-- -->100,000 |
+|    $$t_9 =$$ 1st Jan 2030     | $$P_9=$$ $$-$$<!-- -->100,000  |
+|   $$t_{10} =$$ 1st Jan 2041   |      $$P_{10} =$$ 200,000      |
+|   $$t_{11}=$$ 1st Jan 2042    |      $$P_{11} =$$ 200,000      |
+|   $$t_{12}=$$ 1st Jan 2043    |      $$P_{12} =$$ 200,000      |
+|   $$t_{13} =$$ 1st Jan 2044   |      $$P_{13} =$$ 200,000      |
+|   $$t_{14} =$$ 1st Jan 2045   |      $$P_{14}=$$ 200,000       |
+|   $$t_{15}=$$ 1st Jan 2046    |      $$P_{15} =$$ 200,000      |
+|   $$t_{16} =$$ 1st Jan 2047   |      $$P_{16}=$$ 200,000       |
+|   $$t_{17}=$$ 1st Jan 2048    |      $$P_{17}=$$ 200,000       |
+|   $$t_{18}=$$ 1st Jan 2049    |      $$P_{18}=$$ 200,000       |
+|   $$t_{19}=$$ 1st Jan 2050    |      $$P_{19}=$$ 200,000       |
 
 If we use the NPV formula, we’d need to settle the value for power index in the formula, $$\displaystyle\frac{(t - t_0)}{\Delta T}$$, where $$t$$can be $$t_0$$, $$t_1$$, $$t_2$$, $$...$$, $$t_{19}$$.
 
@@ -120,7 +120,7 @@ We could reasonably approximate these as whole numbers.
 
 Plugging these in NPV formula, XIRR for this cashflow would be given by this equation:
 
-$$0 = 100000 \times (-1 - \displaystyle\frac{1}{(1 + r)^1} - \frac{1}{(1 + r)^2} - ... - \frac{1}{(1 + r)^9} + \frac{2}{(1 + r)^{10}} + \frac{2}{(1 + r)^{11}} + ... + \frac{2}{(1 + r)^{19}}) $$
+$$0 = 100000 \times (-1 - \displaystyle\frac{1}{(1 + r)^1} - \frac{1}{(1 + r)^2} - ... - \frac{1}{(1 + r)^9} + \frac{2}{(1 + r)^{10}} + \frac{2}{(1 + r)^{11}} + ... + \frac{2}{(1 + r)^{19}})$$
 
 Then XIRR is solution for this equation, where $$r$$ is the unknown variable.
 
@@ -153,15 +153,15 @@ We had already created a table and verified the XIRR to be $$3.52\%$$p.a.
 
 This video should help with above steps:
 
-<lite-youtube class="youtube-player-dark" videoid="zDtcmcWD3O0"></lite-youtube>
+<lite-youtube class="youtube-player-nocolor" videoid="zDtcmcWD3O0"></lite-youtube>
 
-<lite-youtube class="youtube-player-light" videoid="9j5vqGYEo8E"></lite-youtube>
+<lite-youtube class="youtube-player-nocolor" videoid="9j5vqGYEo8E"></lite-youtube>
 
 Final result should resemble this:
 
-![Verifying XIRR value from summing up discounted cashflows - Dark Mode](/images/verifying-xirr-sum-of-discounted-cashflow.dark.png){.dark-mode-image}
+![Verifying XIRR value from summing up discounted cashflows - Dark Mode](/images/verifying-xirr-sum-of-discounted-cashflow.dark%20(1).png){.dark-mode-image}
 
-![Verifying XIRR value from summing up discounted cashflows - Light Mode](/images/verifying-xirr-sum-of-discounted-cashflow.light.png){.light-mode-image}
+![Verifying XIRR value from summing up discounted cashflows - Light Mode](/images/verifying-xirr-sum-of-discounted-cashflow.light%20(1).png){.light-mode-image}
 
 ???+ warning
     You would be tempted to manually use 3.52% or 0.0352 instead of relying on output of `xirr()` formula. As you’d see, it would add up to a finite positive or negative value.
@@ -197,7 +197,7 @@ Because the $$\Delta T$$ value is set to 1 year or 365 days.
 
 We could, however, change that to 1 month or 1 decade; and get rates per month, or rates per decade.
 
-## Visualization <a id="Visualization"></a>
+## Visualization <a href="#visualization" id="visualization"></a>
 
 Now that we’ve a formal mathematical understanding of what XIRR is; it’s instructive to understand XIRR visually.
 
@@ -232,15 +232,15 @@ Then XIRR of these transactions can be computed easily, by inserting these numbe
 
 We’d get XIRR as $$17.69\%$$ **p.a.**
 
-![XIRR of only two transactions - Dark Mode](/images/xirr-only-two-transactions-hdfc.dark.png){.dark-mode-image}
+![XIRR of only two transactions - Dark Mode](/images/xirr-only-two-transactions-hdfc.dark%20(1).png){.dark-mode-image}
 
-![XIRR of only two transactions - Light Mode](/images/xirr-only-two-transactions-hdfc.light.png){.light-mode-image}
+![XIRR of only two transactions - Light Mode](/images/xirr-only-two-transactions-hdfc.light%20(1).png){.light-mode-image}
 
 At the same time, we could obtain CAGR of underlying asset, HDFC shares, over 5 years, which also comes out to be $$17.69\%$$ **p.a.**
 
-![CAGR computed with RRI function - Dark Mode](/images/hdfc-5y-cagr.dark.png){.dark-mode-image}
+![CAGR computed with RRI function - Dark Mode](/images/hdfc-5y-cagr.dark%20(1).png){.dark-mode-image}
 
-![CAGR computed with RRI function - Light Mode](/images/hdc-5y-cagr.light.png){.light-mode-image}
+![CAGR computed with RRI function - Light Mode](/images/hdc-5y-cagr.light%20(1).png){.light-mode-image}
 
 **They are the same!**
 
@@ -251,9 +251,9 @@ At the same time, we could obtain CAGR of underlying asset, HDFC shares, over 5 
 
 This is why most spreadsheet or excel applications don’t include a dedicated CAGR function \*\*\*\*You only have to invert the sign of first row entry of value!
 
-![Discounted cashflow for only two transactions - Dark Mode](/images/xirr-only-two-transactions.dark.png){.dark-mode-image}
+![Discounted cashflow for only two transactions - Dark Mode](/images/xirr-only-two-transactions.dark%20(1).png){.dark-mode-image}
 
-![Discounted cashflow for only two transactions - Dark Mode](/images/xirr-only-two-transactions.light.png){.light-mode-image}
+![Discounted cashflow for only two transactions - Dark Mode](/images/xirr-only-two-transactions.light%20(1).png){.light-mode-image}
 
 We can mathematically prove it as well.
 
@@ -276,7 +276,7 @@ $$V_{final} = V_{initial} \times (1 + XIRR)^n$$
 Therefore, CAGR and XIRR would have same values.
 
 ???+ warning
-    CAGR $$\neq$$ XIRR
+    CAGR $$eq$$ XIRR
     
     We've simply found a case, where value of CAGR for an asset between two dates; can be same as XIRR of an imaginary portfolio of two transactions, on those two dates.
     
@@ -296,9 +296,9 @@ This is usually how normal portfolios look like.
 
 Even if one were to make a bank fixed deposit, there can be year-end TDS, resulting in cash outflow from the deposit account; which would end up having multiple transactions in that portfolio.
 
-![Discounting cashflows for XIRR in case of more that two transactions - Dark Mode](/images/xirr-multiple-transactions.dark.png){.dark-mode-image}
+![Discounting cashflows for XIRR in case of more that two transactions - Dark Mode](/images/xirr-multiple-transactions.dark%20(1).png){.dark-mode-image}
 
-![Discounting cashflows for XIRR in case of more that two transactions - Light Mode](/images/xirr-multiple-transactions.light.png){.light-mode-image}
+![Discounting cashflows for XIRR in case of more that two transactions - Light Mode](/images/xirr-multiple-transactions.light%20(1).png){.light-mode-image}
 
 Dotted line shows actual numeric value, of each transaction’s cashflow.
 
@@ -316,15 +316,15 @@ To understand why the decay over time moves like that, we can plot similar graph
 
 Here’s a short video to help you out, though it’s quite straight-forward, if you’ve followed along thus far:
 
-<lite-youtube class="youtube-player-dark" videoid="u10zyhm7FpQ"></lite-youtube>
+<lite-youtube class="youtube-player-nocolor" videoid="u10zyhm7FpQ"></lite-youtube>
 
-<lite-youtube class="youtube-player-light" videoid="-ujqL8h8cAI"></lite-youtube>
+<lite-youtube class="youtube-player-nocolor" videoid="-ujqL8h8cAI"></lite-youtube>
 
 Final plot should look like this:
 
-![Cashflow and Discounted Cashflow vs Years - Dark Mode](/images/cashflow-discounted-cashflow-chart.dark.png){.dark-mode-image}
+![Cashflow and Discounted Cashflow vs Years - Dark Mode](/images/cashflow-discounted-cashflow-chart.dark%20(1).png){.dark-mode-image}
 
-![Cashflow and Discounted Cashflow vs Years - Light Mode](/images/cashflow-discounted-cashflow-chart.light.png){.light-mode-image}
+![Cashflow and Discounted Cashflow vs Years - Light Mode](/images/cashflow-discounted-cashflow-chart.light%20(1).png){.light-mode-image}
 
 While the blue lines in the above plot are of same heights for positive cashflow values and negative values; the red lines are where we see values being discounted more and more over time.
 

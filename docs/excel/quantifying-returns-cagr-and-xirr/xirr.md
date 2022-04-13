@@ -4,7 +4,7 @@ description: What is XIRR? How can I use it to make financial decisions? What af
 
 # A Gentle Introduction to XIRR
 
-## Intro <a id="Intro"></a>
+## Intro <a href="#intro" id="intro"></a>
 
 In the previous chapter, we’ve covered CAGR and how it can offer insights into rate of price growth of common listed securities.
 
@@ -12,7 +12,7 @@ In this chapter, we expand on this; and measure rate of growth of portfolios, wh
 
 For an investor, asset’s growth and portfolio growth are two different aspects; as we’re about to learn.
 
-## XIRR <a id="XIRR"></a>
+## XIRR <a href="#xirr" id="xirr"></a>
 
 XIRR (e**X**tended **I**nternal **R**ate of **R**eturn) is a generalized form of **portfolio** return measurement, that takes into account both entry and exit transactions.
 
@@ -38,7 +38,7 @@ Unlike CAGR, most popular spreadsheet applications like MS Excel or Google Sheet
 
 Before we gain deeper understanding of XIRR, it’d be better to see how we can use it in our day-to-day finances.
 
-## Will you take this policy? <a id="Will-you-take-this-policy"></a>
+## Will you take this policy? <a href="#will-you-take-this-policy" id="will-you-take-this-policy"></a>
 
 Consider this endowment or *moneyback* policy being offered by a popular private insurer:
 
@@ -47,7 +47,7 @@ Consider this endowment or *moneyback* policy being offered by a popular private
 Let’s break this down in a table.
 
 | Date            | Cashflow |
-|:----------------|:---------|
+|-----------------|----------|
 | 01-Jan-2021     | -100,000 |
 | 01-Jan-2022     | -100,000 |
 | 01-Jan-2023     | -100,000 |
@@ -104,15 +104,15 @@ Steps to follow:
 
 Here’s a video to guide you along:
 
-<lite-youtube class="youtube-player-dark" videoid="H4EMN_YkK9w"></lite-youtube>
+<lite-youtube class="youtube-player-nocolor" videoid="H4EMN:YkK9w"></lite-youtube>
 
-<lite-youtube class="youtube-player-light" videoid="HJaPGC0Pu0U"></lite-youtube>
+<lite-youtube class="youtube-player-nocolor" videoid="HJaPGC0Pu0U"></lite-youtube>
 
 The final results should resemble something like these screenshot(s):
 
-![XIRR for the Endowment Policy - Dark Mode](/images/xirr-moneyback-policy.dark.png){.dark-mode-image}
+![XIRR for the Endowment Policy - Dark Mode](/images/xirr-moneyback-policy.dark%20(1).png){.dark-mode-image}
 
-![XIRR for the Endowment Policy - Light Mode](/images/xirr-moneyback-policy.light.png){.light-mode-image}
+![XIRR for the Endowment Policy - Light Mode](/images/xirr-moneyback-policy.light%20(1).png){.light-mode-image}
 
 While it might’ve seemed that *initial investment practically doubling means 100% return*, the computation would say otherwise.
 
@@ -133,7 +133,7 @@ It’s actually lower, 3.52% p.a.
 
 Alternatively, 5% p.a. compounded growth over 20 years would result in $$(1+\frac{5}{100})^{20}−1 = 165\%$$ absolute growth.
 
-## Tweaking the Policy <a id="Tweaking-the-Policy"></a>
+## Tweaking the Policy <a href="#tweaking-the-policy" id="tweaking-the-policy"></a>
 
 Now that we know this ~30 year policy has an effective rate of growth / return as 3.52% p.a.; we’d want to tweak various parameters of the policy wordings, and see how that affects XIRR of the policy.
 
@@ -142,7 +142,7 @@ Now that we know this ~30 year policy has an effective rate of growth / return a
 After first 10 years of payment, there’s some gap of ~10 years. Imagine if the payout schedule were changed, so that payout starts from 11th year onward.
 
 | Date            | Cashflow |
-|:----------------|:---------|
+|-----------------|----------|
 | 01-Jan-2021     | -100,000 |
 | 01-Jan-2022     | -100,000 |
 | 01-Jan-2023     | -100,000 |
@@ -169,15 +169,15 @@ Updating entries in our spreadsheet, and invoking XIRR function, we get **7.17% 
 
 Refer to these videos if you need help
 
-<lite-youtube class="youtube-player-dark" videoid="QoFfq_5dSro"></lite-youtube>
+<lite-youtube class="youtube-player-nocolor" videoid="QoFfq:5dSro"></lite-youtube>
 
-<lite-youtube class="youtube-player-light" videoid="_I8VW7CrcAA"></lite-youtube>
+<lite-youtube class="youtube-player-nocolor" videoid=":I8VW7CrcAA"></lite-youtube>
 
 When you're done, it should resemble something like these:
 
-![XIRR for moneyback policy with earlier payouts - Dark Mode](/images/moneyback-policy-xirr-earlier-payout.dark.png){.dark-mode-image}
+![XIRR for moneyback policy with earlier payouts - Dark Mode](/images/moneyback-policy-xirr-earlier-payout.dark%20(1).png){.dark-mode-image}
 
-![XIRR for moneyback policy with earlier payouts - Light Mode](/images/moneyback-policy-xirr-earlier-payout.light.png){.light-mode-image}
+![XIRR for moneyback policy with earlier payouts - Light Mode](/images/moneyback-policy-xirr-earlier-payout.light%20(1).png){.light-mode-image}
 
 We find that moving the payouts ahead of original schedule has an effect on XIRR - **it improves it**.
 
@@ -264,7 +264,7 @@ Here are a few changes **that won’t impact the XIRR**
 ### Summary of Tweaks
 
 | Changes on Policy Terms                                                                            | XIRR (p.a.) | Change |
-|:---------------------------------------------------------------------------------------------------|:------------|:-------|
+|----------------------------------------------------------------------------------------------------|-------------|--------|
 | Original Policy                                                                                    | 3.52%       | NA     |
 | Early payouts, starting right after premium payment term ends                                      | 7.17%       | ▲      |
 | Spreading premium payments over 20 years                                                           | 4.55%       | ▲      |
@@ -277,7 +277,7 @@ Here are a few changes **that won’t impact the XIRR**
 | Change exact dates, but keep date differences same between them                                    | 3.52%       | Same   |
 | Scale up exact premium, and payout, up to 10x                                                      | 3.52%       | Same   |
 
-## Recap and Wrapping Up <a id="Recap-and-Wrappping-Up"></a>
+## Recap and Wrapping Up <a href="#recap-and-wrappping-up" id="recap-and-wrappping-up"></a>
 
 We’ve seen how XIRR captures *time value of money*.
 

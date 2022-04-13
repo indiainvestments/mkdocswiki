@@ -68,7 +68,7 @@ The PPF is a government backed, long term small savings scheme which was initial
 
 *Maturity type?:* Lumpsum
 
-*Minimum and Maximum Investment:* The minimum deposit amount is Rs. 500 per annum and the upper ceiling limit is Rs. 1,00,000 per annum.
+*Minimum and Maximum Investment:* The minimum deposit amount is Rs. 500 per annum and the upper ceiling limit is Rs. 1,50,000 per annum.
 
 *Tax Benefit?*: Yes, Under Section 80C, interest is tax exempt.
 
@@ -80,7 +80,7 @@ The PPF is a government backed, long term small savings scheme which was initial
 
 *How to?:* Almost all the PSU Banks open the PPF account.
 
-[Here's an online PPF calculator](http://www.personalfn.com/tools-and-resources/financial-calculators/ppf-calculator.aspx)
+[Here's an online PPF calculator](https://www.personalfn.com/calculator/ppf-calculator)
 
 [and some FAQs on PPFs](http://www.icicibank.com/Personal-Banking/investments/ppf/faqs.html)
 
@@ -148,15 +148,15 @@ Six designated Pension Fund Managers (PFMs) have been appointed who would be res
 
 • UTI Retirement Solutions Limited
 
-Various Points of Presence have been constituted, which act as a customer interface for investors. [Here's a list of PoPs where you can open the account](http://pfrda.org.in/writereaddata/linkimages/POP-SP%20LOCATION575033432.pdf)
+Various Points of Presence have been constituted, which act as a customer interface for investors. [Here's a list of PoPs where you can open the account](https://www.pfrda.org.in/index1.cshtml?lsid=1583)
 
-[Here's an online NPS Calculator](http://www.hdfcpension.com/nps-calculator.html) UPDATE: This calculator sucks. Until a more comprehensive calculator is found, [you can use this](https://www.dropbox.com/s/pi9sxduiwxw6a97/NPS%20Basic.xls)
+[Here's an online NPS Calculator](https://groww.in/calculators/nps-calculator/)
 
-[and here are some FAQs](http://www.kotakpensionfund.com/downloads/NPS-v.pdf)
+[and here are some FAQs](https://www.kotakpensionfund.com/faqs)
 
 #### **C. National Savings Certificate**
 
-National Savings Certificates popularly known as NSC is a saving bond , primarily used for small saving and income tax saving investment in India, part of the Postal savings system of Indian Postal Service. The certificates were heavily promoted by the government after Independence of India in 1950s, to collect funds for ["nation building"](http://i3.kym-cdn.com/photos/images/original/000/594/192/596.gif).
+National Savings Certificates popularly known as NSC is a saving bond , primarily used for small saving and income tax saving investment in India, part of the Postal savings system of Indian Postal Service. The certificates were heavily promoted by the government after Independence of India in 1950s, to collect funds for "nation building".
 
 *Features*
 
@@ -178,7 +178,7 @@ National Savings Certificates popularly known as NSC is a saving bond , primaril
 
 *How to?*: You can apply at a post office.
 
-[Here's an online NSC maturity calculator](http://www.investmentkit.com/government/nsc-calculator.shtml)
+[Here's an online](https://groww.in/calculators/nps-calculator/)
 
 and [here's some further reading](http://www.charteredclub.com/national-savings-certificate/)
 
@@ -200,7 +200,7 @@ There are several crucial aspects about EPF that many would not know. For instan
 
 *Tax Benefit?:* Yes. The employer contribution is exempt from tax, while an employee’s contribution is taxable but eligible for deduction under Section 80C of Income tax Act. The money which you initially invest in EPF, the interest you earn and, finally the money you withdraw after a specified period (5 years), are all exempt from income tax. Withdrawal from an EPF amount is subject to tax if it is carried out within 5 years of employment with the same employer. However, if you have not worked for at least five years with the same employer but the EPF has been transferred to the new employer, it is not taxed.
 
-*NRI Friendly?:* Nope. It is applicable to employees working in India for Indian firms wonly.
+*NRI Friendly?:* Nope. It is applicable to employees working in India for Indian firms only.
 
 *Loan facility?:* Nope. But you can withdraw.
 

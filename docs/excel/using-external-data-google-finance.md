@@ -121,9 +121,9 @@ Follow these steps:
 -   Try adding a date in your sheet: 1st April, 2000. In this example, we’re writing it as `01/04/2000` (in `DD/MM/YYYY` format). But you’re free to use any format that’s commonly used.
 -   Double tap or double-click on this. If the date entry is correct, Google Sheets should realize that it’s pointing to April 1st, 2000.
 
-![Date Format in Spreadsheet (dark mode)](/images/excel-date.dark.png){.dark-mode-image}
+![Date Format in Spreadsheet (dark mode)](/images/excel-date.dark%20(1).png){.dark-mode-image}
 
-![Date Format in Spreadsheet (light mode)](/images/excel-date.light.png){.light-mode-image}
+![Date Format in Spreadsheet (light mode)](/images/excel-date.light%20(1).png){.light-mode-image}
 
 Chances are, it might detect it as 4th January, 2000. Or might not even detect it as a date at all!
 
@@ -157,12 +157,12 @@ If a date is not a business day, Google Finance won’t have data for NASDAQ clo
 Once you enter these in a cell, link to the date from the other cell; and hit `Enter` or `Return` on your keyboard; the cell would switch to display `Loading...`, then print a small sub-table that looks like this:
 
 | Date                | Close   |
-|:--------------------|:--------|
+|---------------------|---------|
 | 03/04/2000 16:00:00 | 4223.68 |
 
-<lite-youtube class="youtube-player-dark" videoid="zSUmUS7YOKM"></lite-youtube>
+<lite-youtube class="youtube-player-nocolor" videoid="zSUmUS7YOKM"></lite-youtube>
 
-<lite-youtube class="youtube-player-light" videoid="ZGNNt4KZGOM"></lite-youtube>
+<lite-youtube class="youtube-player-nocolor" videoid="ZGNNt4KZGOM"></lite-youtube>
 
 ### Using INDEX()
 
@@ -178,7 +178,7 @@ Enter another popular in-built formula, that extracts value from table & sub-tab
 We’re receiving data for only a single trading day, as confirmed by 4th argument to the `GOOGLEFINANCE` function. This is how the sub-table returned by `GOOGLEFINANCE()` function would look like.
 
 | Date                | Close   |
-|:--------------------|:--------|
+|---------------------|---------|
 | 03/04/2000 16:00:00 | 4223.68 |
 
 We're interested in the closing price, 4223.68 on 3rd April 2000.
@@ -206,9 +206,9 @@ Similarly, for the `actual date` column, we use (2,1) with `INDEX`:
 
 Also refer to following video
 
-<lite-youtube class="youtube-player-dark" videoid="l0UkFxQDE-k"></lite-youtube>
+<lite-youtube class="youtube-player-nocolor" videoid="l0UkFxQDE-k"></lite-youtube>
 
-<lite-youtube class="youtube-player-light" videoid="dB0Pn9Vek60"></lite-youtube>
+<lite-youtube class="youtube-player-nocolor" videoid="dB0Pn9Vek60"></lite-youtube>
 
 ### Repeating Patterns
 
@@ -223,13 +223,13 @@ To help Excel understand this pattern, one needs to enter the date of next month
 Presently, this is how the table looks in Excel:
 
 | Date       | Actual Date | Cashflow | Price   | Units |
-|:-----------|:------------|:---------|:--------|:------|
+|------------|-------------|----------|---------|-------|
 | 01/04/2000 | 03/04/2000  |          | 4223.68 |       |
 
 We can add one more entry in the first column, below current row.
 
 | Date       | Actual Date | Cashflow | Price   | Units |
-|:-----------|:------------|:---------|:--------|:------|
+|------------|-------------|----------|---------|-------|
 | 01/04/2000 | 03/04/2000  |          | 4223.68 |       |
 | 01/05/2000 |             |          |         |       |
 
@@ -239,9 +239,9 @@ We can add one more entry in the first column, below current row.
 
     Go to first entry in `Actual Date` column, drag the small square till you get to the end of it, so that there’s a `Date` entry for each of the entry in `Actual Date`.
 
-<lite-youtube class="youtube-player-dark" videoid="0u_XQvMzfgQ"></lite-youtube>
+<lite-youtube class="youtube-player-nocolor" videoid="0u:XQvMzfgQ"></lite-youtube>
 
-<lite-youtube class="youtube-player-light" videoid="DoHIGMBXlFM"></lite-youtube>
+<lite-youtube class="youtube-player-nocolor" videoid="DoHIGMBXlFM"></lite-youtube>
 
 ???+ warning
     ⚠️ 🚨 Some cells might have `#NA` and say that there’s an error in getting data from Google Finance. This is a quirk of the `GOOGLEFINANCE()` query. This can be fixed easily, but would require some manual intervention.
@@ -263,7 +263,7 @@ Similarly, drag and auto-fill the price column. Fix `#NA` cells by tweaking the 
 Here’s how it could look like now (a section from the sheet)
 
 | Date       | Actual Date | Cashflow | Price   | Units |
-|:-----------|:------------|:---------|:--------|:------|
+|------------|-------------|----------|---------|-------|
 | 01/12/2004 | 01/12/2004  |          | 2138.23 |       |
 | 01/01/2005 | 03/01/2005  |          | 2152.15 |       |
 | 01/02/2005 | 01/02/2005  |          | 2068.7  |       |
@@ -274,9 +274,9 @@ Here’s how it could look like now (a section from the sheet)
 | 01/07/2005 | 01/07/2005  |          | 2057.37 |       |
 | 01/08/2005 | 01/08/2005  |          | 2195.38 |       |
 
-<lite-youtube class="youtube-player-dark" videoid="8_d1vY4dcjQ"></lite-youtube>
+<lite-youtube class="youtube-player-nocolor" videoid="8:d1vY4dcjQ"></lite-youtube>
 
-<lite-youtube class="youtube-player-light" videoid="Xe5KAqYmS0o"></lite-youtube>
+<lite-youtube class="youtube-player-nocolor" videoid="Xe5KAqYmS0o"></lite-youtube>
 
 This is a common problem with this spreadsheet function, and others have solved it with different approaches.
 
@@ -293,7 +293,7 @@ Select both of these, so Excel can understand the pattern (in this case, the val
 This is how the table should look like now (a small section from the sheet)
 
 | Date       | Actual Date | Cashflow | Price   | Units |
-|:-----------|:------------|:---------|:--------|:------|
+|------------|-------------|----------|---------|-------|
 | 01/12/2004 | 01/12/2004  | 1000     | 2138.23 |       |
 | 01/01/2005 | 03/01/2005  | 1000     | 2152.15 |       |
 | 01/02/2005 | 01/02/2005  | 1000     | 2068.7  |       |
@@ -320,7 +320,7 @@ In the first row, add formula starting with `=`, then `D4 / E4` (E4 is the cell 
 After dragging and filling all cells against each date, this is how the table should look like (a section from the table)
 
 | Date       | Actual Date | Cashflow | Price   | Units        |
-|:-----------|:------------|:---------|:--------|:-------------|
+|------------|-------------|----------|---------|--------------|
 | 01/12/2004 | 01/12/2004  | 1000     | 2138.23 | 0.4676765362 |
 | 01/01/2005 | 03/01/2005  | 1000     | 2152.15 | 0.4646516274 |
 | 01/02/2005 | 01/02/2005  | 1000     | 2068.7  | 0.4833953691 |
@@ -358,7 +358,7 @@ We are almost there.
 Total valuation would be total number of units, multiplied by price as on 22nd May 2015.
 
 | Total Invested  | 182000      |
-|:----------------|:------------|
+|-----------------|-------------|
 | Total Units     | 79.00688187 |
 | Total Valuation | 402094.4643 |
 

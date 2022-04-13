@@ -10,7 +10,7 @@ In the previous chapter, we've seen how to compute total number of LTCG taxation
 
 Picking up from where we’d left off in in part 1, we can start with planning for potential tax computations
 
-## Planning for Tax Computation <a id="Planning-for-tax-computation"></a>
+## Planning for Tax Computation <a href="#planning-for-tax-computation" id="planning-for-tax-computation"></a>
 
 At this point, we’ve computed units outside of STCG zone (purchased more than a year ago, that’s still in investor’s portfolio, eligible for LTCG taxation if redeemed). STCG stands for **S**hort **T**erm **C**apital **G**ain.
 
@@ -87,9 +87,9 @@ List of ISIN is also present in AMFI NAV feed.
 
 This is actually a straight-forward, one-time exercise. It should also make it clear to the reader why having too many funds to portfolio can be cumbersome.
 
-## Execution <a id="Execution"></a>
+## Execution <a href="#execution" id="execution"></a>
 
-#### Adding ISIN column <a id="Adding-ISIN-column"></a>
+#### Adding ISIN column <a href="#adding-isin-column" id="adding-isin-column"></a>
 
 Let’s start by adding the ISIN column first
 
@@ -115,7 +115,7 @@ Insert ISINs as follows (copy-paste from below):
 Final results, should look like this
 
 | Fund Name                                            | ISIN         |
-|:-----------------------------------------------------|:-------------|
+|------------------------------------------------------|--------------|
 | Parag Parikh Flexi Cap Fund - Regular Plan - Growth  | INF879O01019 |
 | Invesco India Multicap Fund - Growth                 | INF205K01DN2 |
 | Axis Focused 25 Fund - Regular Plan - Growth         | INF846K01CH7 |
@@ -130,9 +130,9 @@ Final results, should look like this
 | ICICI Prudential Bluechip Fund - Growth              | INF109K01BL4 |
 | DSP Tax Saver Fund - Regular Plan - Growth           | INF740K01185 |
 
-![After ISIN has been added - Dark Mode](/images/after-isin-added.dark.png){.dark-mode-image}
+![After ISIN has been added - Dark Mode](/images/after-isin-added.dark%20(1).png){.dark-mode-image}
 
-![After ISIN has been added - Light Mode](/images/after-isin-added.light.png){.light-mode-image}
+![After ISIN has been added - Light Mode](/images/after-isin-added.light%20(1).png){.light-mode-image}
 
 ### Fetch and Process Latest NAV from AMFI
 
@@ -166,9 +166,9 @@ Technically, you won't need to fill out all 18k+ rows. As long as you fill out e
 
 Refer to the following video(s) for reference
 
-<lite-youtube class="youtube-player-dark" videoid="URcjv1P_dcA"></lite-youtube>
+<lite-youtube class="youtube-player-nocolor" videoid="URcjv1P:dcA"></lite-youtube>
 
-<lite-youtube class="youtube-player-light" videoid="LGD_N6mBCXA"></lite-youtube>
+<lite-youtube class="youtube-player-nocolor" videoid="LGD:N6mBCXA"></lite-youtube>
 
 Your sheets would now have latest available NAV from all mutual funds, in a nice table format.
 
@@ -225,15 +225,15 @@ Follow these steps:
 
 Refer to this video to follow along steps:
 
-<lite-youtube class="youtube-player-dark" videoid="WUavhFi8XLY"></lite-youtube>
+<lite-youtube class="youtube-player-nocolor" videoid="WUavhFi8XLY"></lite-youtube>
 
-<lite-youtube class="youtube-player-light" videoid="QDdToO78UgQ"></lite-youtube>
+<lite-youtube class="youtube-player-nocolor" videoid="QDdToO78UgQ"></lite-youtube>
 
 Final outcome in the newly added column, should be similar to these screenshots:
 
-![Latest Valuation of Available Units - Dark Mode](/images/latest-valuation-available-units.dark.png){.dark-mode-image}
+![Latest Valuation of Available Units - Dark Mode](/images/latest-valuation-available-units.dark%20(1).png){.dark-mode-image}
 
-![Latest Valuation of Available Units - Light Mode](/images/latest-valuation-available-units.light.png){.light-mode-image}
+![Latest Valuation of Available Units - Light Mode](/images/latest-valuation-available-units.light%20(1).png){.light-mode-image}
 
 ???+ warning
     Depending on when you're looking at these, the exact value might differ. Because it depends on latest NAV as on that date. This computation was done with NAV of 22nd March, 2021
@@ -282,7 +282,7 @@ Redemption works in a FIFO (**F**irst **I**n **F**irst **O**ut) manner in folio.
 We first need to account for 54 units that were sold. These units were acquired as follows -
 
 | Month of Purchase | Number of units |
-|:------------------|:----------------|
+|-------------------|-----------------|
 | January 2018      | 10              |
 | February 2018     | 10              |
 | March 2018        | 10              |
@@ -295,7 +295,7 @@ Once we’ve depleted the *earliest-purchased-earliest-sold* scheme for already 
 These 186 LTCG-eligible units were acquired as follows:
 
 | Month of Purchase | Number of units            |
-|:------------------|:---------------------------|
+|-------------------|----------------------------|
 | June 2018         | 6                          |
 | July 2018         | 10                         |
 | August 2018       | 10                         |
@@ -338,7 +338,7 @@ In other words, one can start adding up the purchase transaction costs from the 
 
 This won’t be the case for a typical CSV transaction dumps for most investors.
 
-#### Grandfathering LTCG Computations <a id="Grandfathering-LTCG-Computations"></a>
+#### Grandfathering LTCG Computations <a href="#grandfathering-ltcg-computations" id="grandfathering-ltcg-computations"></a>
 
 We’ve so far carefully avoided discussing the *grandfathering* clause in equity LTCG computation.
 

@@ -32,15 +32,12 @@ Notice the first line of the entry:
 
 Think of these as the *column headers* in a table. If we use the comma as guiding split-points, then we can also write this as:
 
-| Data | Folio Number | Name of the Fund | Order | Units | NAV | Current NAV | Amount (INR) |
-|:-----|:-------------|:-----------------|:------|:------|:----|:------------|:-------------|
-
 From second line onward, the values are entries in the table, below respective column headers.
 
 Representing entires from the above CSV into a table, would look like this:
 
 | Date       | Folio Number | Name of the Fund                                          | Order | Units   | NAV     | Current Nav | Amount (INR) |
-|:-----------|:-------------|:----------------------------------------------------------|:------|:--------|:--------|:------------|:-------------|
+|------------|--------------|-----------------------------------------------------------|-------|---------|---------|-------------|--------------|
 | 2020-08-20 | 123456789    | ICICI Prudential Bluechip Growth Direct Plan              | buy   | 55.432  | 45.10   | 58.7        | 2500.0       |
 | 2019-08-26 | 123456789    | ICICI Prudential Bluechip Growth Direct Plan              | buy   | 58.343  | 42.85   | 58.7        | 2500.0       |
 | 2018-08-24 | 123456789    | ICICI Prudential Bluechip Growth Direct Plan              | buy   | 55.853  | 44.76   | 58.7        | 2500.0       |
@@ -80,9 +77,9 @@ Follow these steps:
 
     `Date, Folio Number, Name of the Fund, Order, Units, NAV, Current Nav, Amount (INR)`
 
-![After pasting CSV file's first line - Dark Mode](/images/csv-paste.dark.png){.dark-mode-image}
+![After pasting CSV file's first line - Dark Mode](/images/csv-paste.dark%20(1).png){.dark-mode-image}
 
-![After pasting CSV file's first line - Light Mode](/images/csv-paste.light.png){.light-mode-image}
+![After pasting CSV file's first line - Light Mode](/images/csv-paste.light%20(1).png){.light-mode-image}
 
 Notice how the text has spilled over the cell, as expected.
 
@@ -108,9 +105,9 @@ Notice the `""` around comma. Second argument to the `SPLIT` function is a strin
 
 Use it as shown in the video (s) below.
 
-<lite-youtube class="youtube-player-dark" videoid="yxjhhLaMH4g"></lite-youtube>
+<lite-youtube class="youtube-player-nocolor" videoid="yxjhhLaMH4g"></lite-youtube>
 
-<lite-youtube class="youtube-player-light" videoid="oohR6-QaDKg"></lite-youtube>
+<lite-youtube class="youtube-player-nocolor" videoid="oohR6-QaDKg"></lite-youtube>
 
 Notice how the output of `SPLIT()` function spreads the result into multiple cells, in **same row**.
 
@@ -126,9 +123,9 @@ Refer to the video belo…**wait a second!**
 
 ### This isn’t going to work
 
-![Cell Overflow from Pasting all CSV Data - Dark Mode](/images/cell-overflow.dark.png){.dark-mode-image}
+![Cell Overflow from Pasting all CSV Data - Dark Mode](/images/cell-overflow.dark%20(1).png){.dark-mode-image}
 
-![Cell Overflow from Pasting all CSV Data - Light Mode](/images/cell-overflow.light.png){.light-mode-image}
+![Cell Overflow from Pasting all CSV Data - Light Mode](/images/cell-overflow.light%20(1).png){.light-mode-image}
 
 The entire data is pasted into a single cell. Splitting it would only paste data into a single row.
 
@@ -168,7 +165,7 @@ For example, there’s `ICICI Prudential Bluechip Growth Direct Plan`.
 It’d split as follows
 
 |            |
-|:-----------|
+|------------|
 | ICICI      |
 | Prudential |
 | Bluechip   |
@@ -206,15 +203,15 @@ Then paste it in your spreadsheet, and do the following:
 
 Refer to the video(s) below
 
-<lite-youtube class="youtube-player-dark" videoid="3zUDl3cQSFU"></lite-youtube>
+<lite-youtube class="youtube-player-nocolor" videoid="3zUDl3cQSFU"></lite-youtube>
 
-<lite-youtube class="youtube-player-light" videoid="kLfIAQ8rTSY"></lite-youtube>
+<lite-youtube class="youtube-player-nocolor" videoid="kLfIAQ8rTSY"></lite-youtube>
 
 Final result should look like as follows:
 
-![CSV Imported and Processed into Rows and Columns - Dark Mode](/images/csv-to-table.dark.png){.dark-mode-image}
+![CSV Imported and Processed into Rows and Columns - Dark Mode](/images/csv-to-table.dark%20(1).png){.dark-mode-image}
 
-![CSV Imported and Processed into Rows and Columns - Light Mode](/images/csv-to-table.light.png){.light-mode-image}
+![CSV Imported and Processed into Rows and Columns - Light Mode](/images/csv-to-table.light%20(1).png){.light-mode-image}
 
 ## Alternate Option : Automated Processing
 
@@ -249,7 +246,9 @@ Most commonly, you’d find yourself importing content of your CSV file directly
 
 Here's a sample CSV file for you to download
 
-{% file src="../../.gitbook/assets/test.csv" caption="test.csv" %}
+{% file src="../../.gitbook/assets/test (1).csv" %}
+test.csv
+{% endfile %}
 
 -   Download `test.csv` into your system
 -   Go to `File` → `Import`
@@ -261,16 +260,16 @@ Spreadsheet would ask you for inputs on how to parse the CSV data in the file.
 
 In most common cases, it’d be able to parse that correctly into a table.
 
-![Importing CSV File into Spreadsheet - Dark Mode](/images/csv-file-import.dark.png){.dark-mode-image}
+![Importing CSV File into Spreadsheet - Dark Mode](/images/csv-file-import.dark%20(1).png){.dark-mode-image}
 
-![Importing CSV File into Spreadsheet - Light Mode](/images/csv-file-import.light.png){.light-mode-image}
+![Importing CSV File into Spreadsheet - Light Mode](/images/csv-file-import.light%20(1).png){.light-mode-image}
 
 ???+ info
     In this case, we should provide separator type as comma
 
-![After Successful Import - Dark Mode](/images/csv-file-import-result.dark.png){.dark-mode-image}
+![After Successful Import - Dark Mode](/images/csv-file-import-result.dark%20(1).png){.dark-mode-image}
 
-![After Successful Import - Light Mode](/images/csv-file-import-result.light.png){.light-mode-image}
+![After Successful Import - Light Mode](/images/csv-file-import-result.light%20(1).png){.light-mode-image}
 
 How’s this even possible?!
 

@@ -31,9 +31,9 @@ You can also park your money in certain debt mutual funds. This includes **overn
 
 Here are the NAV graphs of HDFC Liquid fund, the biggest liquid fund in India in terms of AUM, and Parag Parikh Liquid fund, during the covid crisis.
 
-![HDFC Liquid Fund's NAV graph during the covid crisis](/images/hdfc-liquid.png)
+![HDFC Liquid Fund's NAV graph during the covid crisis](/images/hdfc-liquid%20(1).png)
 
-![Parag Parikh Liquid Fund's NAV graph during the covid crisis](/images/parag-liquid.png)
+![Parag Parikh Liquid Fund's NAV graph during the covid crisis](/images/parag-liquid%20(1).png)
 
 That being said, investments in debt funds don’t incur TDS or taxes until you redeem money from them. Many liquid funds also offer instant redemption up to $$₹50,000$$ at any time of the day although the reliability of the instant redemption depends on the AMC website.
 
@@ -41,8 +41,9 @@ In addition, debt mutual funds enjoy *indexation* benefits when it comes to taxa
 
 As an example, let's consider $$₹1$$ lakh parked for 1 year in a bank account, a fixed deposit, and a liquid fund. The interest earned and the actual interest earned after taxes, assuming $$30\%$$ tax slab, are mentioned as follows:
 
+|                               |                                 |                                 |
+|-------------------------------|---------------------------------|---------------------------------|
 | Savings Account \[$$2.7\%$$\] | Fixed Deposit \[$$5\%$$\]       | Liquid Fund \[$$3.3\%$$\]       |
-|:------------------------------|:--------------------------------|:--------------------------------|
 | $$₹2,700$$                    | $$₹5,095$$                      | $$₹3,300$$                      |
 | $$₹2,700$$                    | $$₹5,095\times(1-30\%)=₹3,566$$ | $$₹3,300\times(1-30\%)=₹2,310$$ |
 
@@ -50,16 +51,17 @@ Since the interest earned from Savings Account is less than $$₹10,000$$, this 
 
 Let's see what happens when we park $$₹1$$ lakh for 3 years. This is where indexation benefits come into the picture in debt mutual funds.
 
+|                               |                                   |                                 |
+|-------------------------------|-----------------------------------|---------------------------------|
 | Savings Account \[$$2.7\%$$\] | Fixed Deposit \[$$5.3\%$$\]       | Money Market Fund \[$$3.9\%$$\] |
-|:------------------------------|:----------------------------------|:--------------------------------|
 | $$₹8,320$$                    | $$₹17,111$$                       | $$₹12,162$$                     |
-| $$₹8,320$$                    | $$₹17,111\times(1-30\%)=₹11,977$$ | $$₹8,433$$                      |
+| $$₹8,320$$                    | $$₹17,111\times(1-30\%)=₹11,977$$ | $$₹11,230$$                     |
 
 We've considered the [Cost of Inflation Index (CII) values between FY19 and FY21](https://www.incometaxindia.gov.in/charts%20%20tables/cost-inflation-index.htm), which are 280 and 301, respectively. The indexed cost of investment, at the time of redemption in FY21, becomes
 
 $$(₹1,00,000\times\displaystyle\frac{301}{280})=₹1,07,500$$
 
-The indexed gains are $$₹12,162-₹7,500=₹4,662$$ and this is taxed at $$20\%$$. The taxes payable are $$₹4,662\times(1-20\%)=₹3,729$$. This gives us our actual realized gains of $$₹12,162-₹3,729=₹8,433$$.
+The indexed gains are $$₹12,162-₹7,500=₹4,662$$ and this is taxed at $$20\%$$. The taxes payable are $$₹4,662\times20\%=₹932$$. This gives us our actual realized gains of $$₹12,162-₹932=₹11,230$$.
 
 ### Arbitrage Mutual Funds
 
