@@ -8,8 +8,9 @@ India Investments is a community to discuss investments, insurance, finance, eco
 
 If you want to discuss anything on this website with other people, please check out our sub-reddit and discord below.
 
-[![](https://img.shields.io/reddit/subreddit-subscribers/indiainvestments?style=social)](https://reddit.com/r/indiainvestments) [![](https://img.shields.io/discord/546638391127572500)](https://discord.gg/hqBNg4u) <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-22-orange.svg?style=flat-square)](#contributors-)
+[![](https://img.shields.io/reddit/subreddit-subscribers/indiainvestments?style=social)](https://reddit.com/r/indiainvestments) [![](https://img.shields.io/discord/546638391127572500)](https://discord.gg/hqBNg4u)
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-31-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Beginner
@@ -142,7 +143,7 @@ Our heartiest gratitude, to these wonderful people ([emoji key](https://allcontr
 <a href="https://github.com/I-am-Optimistic"><img src="https://avatars.githubusercontent.com/u/67626554?v=4?s=100" width="100px;" alt=""/><br /><sub><b>I-am-Optimistic</b></sub></a><br /><a href="https://github.com/indiainvestments/content/commits?author=I-am-Optimistic" title="Documentation">📖</a> <a href="#tutorial-I-am-Optimistic" title="Tutorials">✅</a>
 </td>
 <td align="center">
-<a href="https://github.com/Tulip2MF"><img src="https://avatars.githubusercontent.com/u/78700380?v=4?s=100" width="100px;" alt=""/><br /><sub><b>tulip2mf</b></sub></a><br /><a href="https://github.com/indiainvestments/content/commits?author=tulip2mf" title="Documentation">📖</a> <a href="#tutorial-tulip2mf" title="Tutorials">✅</a>
+<a href="https://github.com/Tulip2MF"><img src="https://avatars.githubusercontent.com/u/78700380?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Tulip2MF</b></sub></a><br /><a href="https://github.com/indiainvestments/content/commits?author=Tulip2MF" title="Documentation">📖</a> <a href="#tutorial-Tulip2MF" title="Tutorials">✅</a>
 </td>
 <td align="center">
 <a href="https://github.com/villageindian"><img src="https://avatars.githubusercontent.com/u/78730706?v=4?s=100" width="100px;" alt=""/><br /><sub><b>villageindian</b></sub></a><br /><a href="https://github.com/indiainvestments/content/commits?author=villageindian" title="Documentation">📖</a> <a href="#tutorial-villageindian" title="Tutorials">✅</a> <a href="https://github.com/indiainvestments/content/pulls?q=is%3Apr+reviewed-by%3Avillageindian" title="Reviewed Pull Requests">👀</a> <a href="#question-villageindian" title="Answering Questions">💬</a>
@@ -179,7 +180,36 @@ Our heartiest gratitude, to these wonderful people ([emoji key](https://allcontr
 </tr>
 <tr>
 <td align="center">
-<a href="https://searchableguy.com"><img src="https://avatars.githubusercontent.com/u/73341821?v=4?s=100" width="100px;" alt=""/><br /><sub><b>searchableguy</b></sub></a><br /><a href="https://github.com/indiainvestments/content/pulls?q=is%3Apr+reviewed-by%3Asearchableguy" title="Reviewed Pull Requests">👀</a>
+<a href="http://fully-faltoo.com/"><img src="https://avatars.githubusercontent.com/u/1546426?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Pratyush Mittal</b></sub></a><br /><a href="https://github.com/indiainvestments/content/commits?author=pratyushmittal" title="Documentation">📖</a>
+</td>
+<td align="center">
+<a href="https://github.com/webholik"><img src="https://avatars.githubusercontent.com/u/360759?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ankit Saini</b></sub></a><br /><a href="https://github.com/indiainvestments/content/commits?author=webholik" title="Documentation">📖</a>
+</td>
+<td align="center">
+<a href="https://github.com/arjitg"><img src="https://avatars.githubusercontent.com/u/15131095?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Arjit Gupta</b></sub></a><br /><a href="https://github.com/indiainvestments/content/commits?author=arjitg" title="Documentation">📖</a>
+</td>
+<td align="center">
+<a href="http://phalgun.in/"><img src="https://avatars.githubusercontent.com/u/915425?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Phalgun Guduthur</b></sub></a><br /><a href="https://github.com/indiainvestments/content/commits?author=phalgun" title="Documentation">📖</a>
+</td>
+<td align="center">
+<a href="https://shreyasgupta.in/"><img src="https://avatars.githubusercontent.com/u/20678047?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Shreyas Gupta</b></sub></a><br /><a href="https://github.com/indiainvestments/content/commits?author=sggts04" title="Documentation">📖</a>
+</td>
+<td align="center">
+<a href="https://github.com/suhaga15"><img src="https://avatars.githubusercontent.com/u/22257346?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Suhag</b></sub></a><br /><a href="https://github.com/indiainvestments/content/commits?author=suhaga15" title="Documentation">📖</a>
+</td>
+<td align="center">
+<a href="https://github.com/Uninspired-sapien"><img src="https://avatars.githubusercontent.com/u/102660286?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Uninspired-sapien</b></sub></a><br /><a href="https://github.com/indiainvestments/content/commits?author=Uninspired-sapien" title="Documentation">📖</a>
+</td>
+</tr>
+<tr>
+<td align="center">
+<a href="https://github.com/draco-malfoy"><img src="https://avatars.githubusercontent.com/u/46344490?v=4?s=100" width="100px;" alt=""/><br /><sub><b>draco-malfoy</b></sub></a><br /><a href="https://github.com/indiainvestments/content/commits?author=draco-malfoy" title="Documentation">📖</a>
+</td>
+<td align="center">
+<a href="https://github.com/srinivesh"><img src="https://avatars.githubusercontent.com/u/79801397?v=4?s=100" width="100px;" alt=""/><br /><sub><b>srinivesh</b></sub></a><br /><a href="https://github.com/indiainvestments/content/commits?author=srinivesh" title="Documentation">📖</a>
+</td>
+<td align="center">
+<a href="https://github.com/xero08"><img src="https://avatars.githubusercontent.com/u/856525?v=4?s=100" width="100px;" alt=""/><br /><sub><b>xero08</b></sub></a><br /><a href="https://github.com/indiainvestments/content/commits?author=xero08" title="Documentation">📖</a>
 </td>
 </tr>
 </table>
