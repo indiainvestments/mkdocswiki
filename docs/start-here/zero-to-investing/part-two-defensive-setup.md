@@ -17,7 +17,7 @@ To shortlist the options, I checked coverfox.com with the following options:
 7.  Pre-existing disease coverage – this is not important. For young people, this option is not important.
 8.  Ignore options like Day-care treatment, Home care, Annual checkups, Ambulance expenses, Dental treatment, Spectacle care (I mean these are a thing nowadays!).
 
-*Some of the good options which have been short-listed are Apollo munich Easy Standard (not Exclusive, Premium, Optima), HDFC Ergo Health Suraksha and Kotak’s plans. Do read the policy documents for the exclusions and also the list of hospitals in your area. And buy it ASAP (max 3 days research, or 1 weekend).*
+*For more research, please check into some of the resources mentioned in \[Freefincal's Free Resources Page\](*[*https://freefincal.com/select-the-right-health-insurance-policy-with-these-free-resources/*](https://freefincal.com/select-the-right-health-insurance-policy-with-these-free-resources/)*). Do read the policy documents for the exclusions and also the list of hospitals in your area. And buy it ASAP (max 3 days research, or 1 weekend).*
 
 ### **Part 2B is Life Insurance**
 
@@ -54,6 +54,4 @@ What is your NET Annual Income? Annual income = This you can get by multiplying 
 
 There are multiple ways to do it, but for a Zero Level person, above is a decent thumb rule.
 
-Some good companies to go to are Aegon, HDFC, Kotak.
-
-I don’t like LIC because they are horribly expensive last I checked.
+Some good companies to go to are Aegon, ICICI, HDFC, Kotak.

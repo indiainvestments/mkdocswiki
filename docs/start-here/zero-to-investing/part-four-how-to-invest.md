@@ -18,7 +18,9 @@ We will create two categories or my preferential term Baskets (or Buckets).
 
 Aim: money which is needed within 7 years.
 
-What to use: Fund D1. *Why is needed here*
+What to use: If you are using **ICICI Liquid Fund - Direct option**. Then, a good option to use here is ICICI Prudential Banking and PSU Fund - Direct option. It is a conservative debt fund with very low chances of reduction in value.  
+  
+If you are using Parag Parikh Liquid - Direct option as your goto Liquid fund, then a good choice for this Basket would be their Parag Parikh Conservative Hybrid - Direct fund.  
 
 ### Basket 2
 
@@ -40,28 +42,13 @@ To assess these payments, a higher level of understanding is required (higher as
 
 #### Part B:
 
-For long term money (>7 years in this case), we will keep money in two parts, so two parts within Basket 2. These parts are Bond/Fixed income and Equity. And we need to decide on the amount of split between the two groups.
-
-The simplest way to divide between the two groups is an equal division also called as 50:50. Divide equally and that is it. No calculations needed. Easy, simple and quite optimum.
-
-The amount labeled as Basket 2 can be put into the following funds:
-
-1.  Fixed income group: Fund D2. Similar fund to basket 1 fund but a different name and character.
-2.  Equity group: After lot of pondering, I have zeroed on PPFAS Flexicap fund – Direct option. Excellent ethics. Good team. International diversification is a uniqueness, which I wholeheartedly agree. Good customer support.
-
-**An example** of how will go about.
-
-Income = 50,000 a month (easier to calculate things that way). Savings amount = 25,000 a month (50% target rate).
-
-Since, we haven’t really done any major calculations regarding money needed within 7 years, and money needed beyond 7 years, we can start with again a split of 50:50 between baskets 1 and 2.
-
-Basket 1: Fund D1 fund – direct option = allot 12,500 per month.
-
-Basket 2: Fund D2 fund – direct option = allot 6,250 per month. PPFAS Flexicap fund – direct option = allot 6,250 per month.
+For long term money (>5-7 years in this case), I will just cut the complications and suggest to put money in a single fund. That would be ICICI Multi-Asset fund - Direct option. The reason is that this fund will give you a 65% minimum equity, some gold, some real estate investment exposure and reasonable bonds. Plus, the biggest benefit is the built-in rebalancing inherent in this style of fund.  
+  
+As an alternative, Parag Parikh Flexi Cap fund - direct option would be good choice too in this basket group. Just one single fund with predominant Indian equities and 20-30% foreign equities. 
 
 More terms:
 
-**SIP (systematic investment plan)** – this is a way to invest a fixed amount of money on a particular date periodically. They can be applied to any mutual fund, and is not applicable only to equity funds. They can be started for the all the above 3 funds.
+**SIP (systematic investment plan)** – this is a way to invest a fixed amount of money on a particular date periodically. They can be applied to any mutual fund, and is not applicable only to equity funds. They can be started for the all the above funds.
 
 Mutual Fund – please [refer to this post](https://www.reddit.com/r/IndiaInvestments/comments/2nh30p/mutual_fund_eli5_series/).
 
@@ -72,7 +59,7 @@ Mutual Fund – please [refer to this post](https://www.reddit.com/r/IndiaInvest
 3.  Which date should I put the SIP date on? Put it 7 days after your normal salary day. So, if you receive your salary on 1st, then put SIP on 7th. Why? Because sometimes the salary gets delayed, and then your SIP will get skipped. Don’t worry, they will not charge you money for that skipping.
 4.  Why equal divisions? I am smart enough to calculate the exact ratios. Well, if this series has woken you up to that level of smartness, indeed do those calculations but do start investing within this month onwards, rather than doing all those calculations only. Stop the action paralysis and get a decent start NOW. Rather than an optimum start some months/years down the line.
 5.  Why these funds only and not any other? Because I am saying these funds are good enough for long term holding. I have personal experience with each of them. Pattu can vouch for them as well.
-6.  What if I need to plan out 80C investment also? Opt for PPFAS taxsaver - direct option and use it for complete usage of 80C limit.
+6.  What if I need to plan out 80C investment also? Opt for Parag Parikh's taxsaver or ICICI Prudential Long Term Equity fund - direct option (their taxsaver) and use it for complete usage of 80C limit. No need for PPF or SSY or any of the moneyback / endowment / insurance plans. Keep it really simple. 
 
 **To summarise the approach (across 4 posts):**
 
@@ -83,7 +70,7 @@ Mutual Fund – please [refer to this post](https://www.reddit.com/r/IndiaInvest
 5.  Do less spending.
 6.  Don’t get a credit card. Have a debit card and use cash.
 7.  Target a savings amount (50%, 30%, 10%, whatever and gradually either increase that or increase income and keep that ratio intact).
-8.  Put 3 SIPs, 7 days after salary credit into account, for the relevant amounts.
+8.  Put 2 SIPs, 7 days after salary credit into account, for the relevant amounts.
 9.  Do this for next 3-5 years.
 
 Ping me after 5 years for what to do next!!
@@ -92,5 +79,5 @@ Ping me after 5 years for what to do next!!
 
 Why such a plan combination? This is for those who want to know more intricacies of the choices.
 
-1.  We have got 3 debt funds and 1 equity fund, across 1/2 AMCs. Much easier to start and manage. Eventually, when there will need for switches between these funds, then it remains easy.
+1.  We have got 3 funds which correspond and take care of respective baskets, across 1/2 AMCs. Much easier to start and manage. Eventually, when there will need for switches between these funds, then it remains easy.
 2.  Till 1-2 crores of amounts, I don’t see any real need to have more funds than these.

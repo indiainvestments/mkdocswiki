@@ -6,7 +6,7 @@ description: "Part one of Zero to Investing series : for absolute beginners star
 
 ## Intro : Level Zero 😊
 
-{% embed url="https://tenor.com/view/po-level-zero-kung-fu-panda-fail-gif-11786422" caption="There's a level zero" %}
+{% embed url="https://tenor.com/view/po-level-zero-kung-fu-panda-fail-gif-11786422" %}
 
 You're at *level zero*, if you've basic idea about bank accounts, or maybe some idea about FD, have heard about SIP stuff, and that is it.
 
@@ -82,7 +82,7 @@ Why that thing? Because they are:
 ???+ warning
     You will receive money only the next working day from liquid mutual fund. For smaller amounts, (&lt;50,000 INR, or 90% of your investments, whichever is smaller), most liquid MFs have the facility of 24x7 instant redemption via IMPS, which is a great thing.
 
-**Solution:** so, for that person with 24L, we advised him to keep 3L in savings account (he had been seeing that huge amount in his account statement, so just could not ask him to remove everything. It would have been a shock to him), keep three 1L FDs of similar maturity and rest 18L in *Franklin Templeton’s liquid fund*.
+**Solution:** so, for that person with 24L, we advised him to keep 3L in savings account (he had been seeing that huge amount in his account statement, so just could not ask him to remove everything. It would have been a shock to him), keep three 1L FDs of similar maturity and rest 18L in *ICICI Prudential liquid fund*.
 
 We're giving a specific name here, because there are so many options in that category, that it again causes action paralysis of which one to choose.
 
