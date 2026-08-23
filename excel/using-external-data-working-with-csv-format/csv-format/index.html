@@ -5754,7 +5754,7 @@
 <p><a href="https://support.google.com/docs/answer/3094136?hl=en">Docs Editor help</a> | <a href="https://web.archive.org/web/20210213105926/https://support.google.com/docs/answer/3094136?hl=en">Internet archive link</a> | <a href="https://archive.is/5pSZw">archive.is link</a></p>
 <p><code>SPLIT()</code> takes a text, and the separator (which in this case, is comma or <code>,</code>).</p>
 <p>We can invoke it as follows:</p>
-<div class="highlight"><pre><span></span><code>SPLIT(cellID, &quot;,&quot;)
+<div class="highlight"><pre><span></span><code>SPLIT(cellID, ",")
 </code></pre></div>
 <p>Notice the <code>""</code> around comma. Second argument to the <code>SPLIT</code> function is a string. It needs to be wrapped in single-quote (<code>''</code>) or double-quote(<code>""</code>).</p>
 <p>Use it as shown in the video (s) below.</p>
@@ -5788,7 +5788,7 @@
 <li>if it’s a comma(<code>,</code>), then it’s supposed to split into a new cell in same row</li>
 </ul>
 <p>To break into multiple rows / lines, we’ve to split by SPACE, and transpose that.</p>
-<div class="highlight"><pre><span></span><code>=TRANSPOSE(SPLIT(cellId, &quot; &quot;))
+<div class="highlight"><pre><span></span><code>=TRANSPOSE(SPLIT(cellId, " "))
 </code></pre></div>
 <p>However, it’s not as simple.</p>
 <p>There are lot of spaces in that text. If we apply this logic presented above, it’d spread those in multiple rows as well.</p>

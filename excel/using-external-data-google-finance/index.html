@@ -5711,11 +5711,11 @@
 <p>Here (2, 2) means 2nd row, 2nd column.</p>
 </details>
 <p>We can take the result of <code>GOOGLEFINANCE</code> call, and pass it into <code>INDEX</code> function, like this</p>
-<div class="highlight"><pre><span></span><code>result = GOOGLEFINANCE(&quot;.IXIC&quot;, &quot;close&quot;, &lt;date cell&gt;, 1)
+<div class="highlight"><pre><span></span><code>result = GOOGLEFINANCE(".IXIC", "close", &lt;date cell&gt;, 1)
 price = INDEX(result, 2, 2) # extract value in (2,2)
 </code></pre></div>
 <p>But instead of two calls, spread over two cells, we can also inline it</p>
-<div class="highlight"><pre><span></span><code>INDEX(GOOGLEFINANCE(&quot;.IXIC&quot;, &quot;close&quot;, &lt;date cell&gt;, 1), 2, 2)
+<div class="highlight"><pre><span></span><code>INDEX(GOOGLEFINANCE(".IXIC", "close", &lt;date cell&gt;, 1), 2, 2)
 </code></pre></div>
 <p>Similarly, for the <code>actual date</code> column, we use (2,1) with <code>INDEX</code>:<br />
 <code>=INDEX(GOOGLEFINANCE(".IXIC", "close", &lt;date cell&gt;, 1), 2, 1)</code></p>
